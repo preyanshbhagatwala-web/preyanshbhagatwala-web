@@ -1,22 +1,17 @@
 ﻿<div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--               PERMANENT STATIC NAME + DYNAMIC SUBTITLE          -->
+<!--       CUSTOM DESIGN TECHNOLOGIST & SYSTEMS ARCHITECT HERO       -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-# ⚡ PREYANSH BHAGATWALA ⚡
-### *Systems Architect & Creative Technologist*
+<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala — Software Engineer & Design Technologist" />
 
-<!-- DYNAMIC SUBTITLE: NAME REMAINS CONSTANT, TITLES ANIMATE UNDERNEATH -->
-<a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&width=720&height=40&lines=Building+High-Throughput+Distributed+Platforms;Translating+Complex+Mathematical+Models+into+Art;ClimateTech+%E2%80%A2+Parametric+FinTech+%E2%80%A2+Predictive+ML;Operating+at+the+Collision+of+Performance+%26+Design" alt="Dynamic Roles" />
-</a>
-
+<!-- SUBTITLE PULSE WITH ACTIVE STATUS -->
 <p align="center">
-  <img src="https://img.shields.io/badge/ARCHITECT-DISTRIBUTED_SYSTEMS-0A0E17?style=for-the-badge&logo=codewars&logoColor=00F0FF" />
-  <img src="https://img.shields.io/badge/FOUNDATION-MACHINE_LEARNING-0A0E17?style=for-the-badge&logo=scikitlearn&logoColor=FFB86C" />
-  <img src="https://img.shields.io/badge/LOCATION-INDIA_%F0%9F%87%AE%F0%9F%87%B3-0A0E17?style=for-the-badge&logo=googlemaps&logoColor=50FA7B" />
-  <img src="https://img.shields.io/badge/STATUS-COMPOSING_NEW_REALMS-0A0E17?style=for-the-badge&logo=target&logoColor=FF79C6" />
+  <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%26_DESIGNER-080B10?style=for-the-badge&logo=figma&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/CRAFT-SYSTEMS_ARCHITECTURE-080B10?style=for-the-badge&logo=codewars&logoColor=A855F7" />
+  <img src="https://img.shields.io/badge/INTELLIGENCE-MACHINE_LEARNING-080B10?style=for-the-badge&logo=scikitlearn&logoColor=EC4899" />
+  <img src="https://img.shields.io/badge/BASE-INDIA-080B10?style=for-the-badge&logo=googlemaps&logoColor=50FA7B" />
 </p>
 
 </div>
@@ -24,38 +19,40 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--           MANIFESTO & ISOMETRIC COMMAND CENTER             -->
+<!--              CODEX: WHERE CODE COLLIDES WITH ART               -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
 <table>
 <tr>
-<td width="55%" valign="middle">
+<td width="54%" valign="middle">
 
-### 💭 The Manifesto
+### ✦ The Design Engineer's Codex
 
-> *"Most engineers build systems that simply function.*  
-> *Artists craft digital experiences that evoke and endure.*  
-> *I operate at the collision point: architecting fault-tolerant, high-throughput engines with the mathematical precision of a staff software engineer and the relentless obsession of a digital sculptor."*
+> *"Engineering without design is sterile utility.*  
+> *Design without engineering is an unbuildable dream.*  
+> *I build at the exact intersection: crafting fault-tolerant, high-throughput systems with the mathematical rigor of an enterprise staff engineer and the relentless aesthetic obsession of an avant-garde designer."*
 
-<br>
-
-```rust
-struct EngineerDossier {
-    identity:    "Preyansh Bhagatwala",
-    discipline:  "Distributed Systems, Applied ML, Fault-Tolerant Microservices",
-    ethos:       "Deterministic state machines, mechanical sympathy, zero bloat",
-    mediums:     ["TypeScript", "Python", "Node.js", "PostgreSQL", "React"],
-    coordinates: "India 🇮🇳 // Deploying globally"
-}
+```typescript
+const EngineerProfile: ProfileSpec = {
+  identity: "Preyansh Bhagatwala",
+  discipline: "Software Engineering & Interaction Design",
+  corePrinciples: [
+    "Design tokens as the immutable source of truth",
+    "Sub-16ms render choreography & 60fps kinetic motion",
+    "Deterministic state machines with zero-entropy backends"
+  ],
+  canvas: "Figma ──► AST / DOM ──► PostgreSQL / ML Pipelines",
+  status: "Composing high-impact systems across Climate & Enterprise"
+};
 ```
 
 </td>
-<td width="45%" align="center" valign="middle">
+<td width="46%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 12px;" alt="Developer Command Center" />
+<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 14px; border: 1px solid #1E2E48;" alt="Preyansh Bhagatwala Studio" />
 
 <br>
-<sub><b>ISOMETRIC COMMAND CENTER // DUAL-TELEMETRY SETUP</b></sub>
+<sub><b>ISOMETRIC COMMAND CENTER // DUAL-TELEMETRY WORKSTATION</b></sub>
 
 </td>
 </tr>
@@ -63,68 +60,134 @@ struct EngineerDossier {
 
 ---
 
-## 🏛️ Featured Architectures & Blueprints
+## 🏛️ System Blueprints & Case Studies
 
-#### 01 / **TRINETRA V2** — *Autonomous Parametric Resilience Engine*
-> **Parametric climate risk insurance protecting Indian gig economies from extreme weather disruption.**
-* **The Engineering**: Real-time telemetry pipeline ingesting satellite and atmospheric indices to automate algorithmic claim adjudication without human latency.
-* **The Art**: Converting chaotic monsoon downpours and climate volatility into instant, life-saving financial liquidity for frontline workers.
-* **Stack**: `JavaScript` • `Actuarial Triggers` • `Telemetry Ingestion` • `FinTech Cloud`
-* 🔗 **[Inspect Blueprint →](https://github.com/preyanshbhagatwala-web/TrinetraV2)**
+```
+========================================================================================
+  FEATURED ARCHITECTURES: RIGOROUS LOGIC MEETS INTUITIVE INTERFACES
+========================================================================================
+```
+
+### 🌪️ **01 / TRINETRA V2** — *Autonomous Parametric Resilience Engine*
+> **AI-powered parametric climate risk platform safeguarding gig delivery workers from extreme weather disruption.**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎨 The Interaction Design**
+- Real-time meteorological telemetry radar HUD.
+- Micro-interaction state transitions during flood/heat alerts.
+- Frictionless zero-click payout validation interface.
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ The System Architecture**
+- High-concurrency automated event ingestion pipelines.
+- Parametric actuarial threshold trigger mechanisms.
+- Stateless transaction settlement layer for instant liquidity.
+
+</td>
+</tr>
+</table>
+
+* **Tech Stack**: `JavaScript` • `Parametric Risk Logic` • `Weather Telemetry APIs` • `FinTech Cloud`  
+* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/TrinetraV2)**
 
 ---
 
-#### 02 / **CROP YIELD PREDICTOR** — *Machine Learning Planetary Agronomics*
-> **Multi-variable harvest forecasting engine trained on 28,000+ historical records across 100+ nations.**
-* **The Engineering**: Scikit-learn Random Forest ensemble featuring interaction spaces (`rainfall × temperature`, `pesticide-to-precipitation ratio`) delivering sub-second inference through a Flask REST API.
-* **The Art**: Mapping planetary climatic variations onto an interactive continuous logarithmic probability distribution.
-* **Stack**: `Python` • `Scikit-Learn` • `Flask` • `React 18` • `Vite` • `Recharts`
-* 🔗 **[Inspect Blueprint →](https://github.com/preyanshbhagatwala-web/crop-yield-predictor)**
+### 🌾 **02 / CROP YIELD PREDICTOR** — *Machine Learning Planetary Agronomics*
+> **Multi-variable harvest forecasting platform analyzing 28,000+ historical records across 100+ countries.**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎨 The Interaction Design**
+- Continuous logarithmic yield ribbon visualizer mapping bimodal distributions.
+- Real-time parameter bound validation with reactive form kinetics.
+- Responsive, glassmorphic analytics dashboard built with Recharts.
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ The System Architecture**
+- Scikit-learn Random Forest regressor with cross-validated hyperparameter tuning.
+- Real-time interaction space derivation (`rainfall × temp`, `pesticide ratio`).
+- Sub-second Flask REST API inference engine with CORS middleware.
+
+</td>
+</tr>
+</table>
+
+* **Tech Stack**: `Python` • `Scikit-Learn` • `Flask REST API` • `React 18` • `Vite` • `Recharts`  
+* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/crop-yield-predictor)**
 
 ---
 
-#### 03 / **VCMS** — *Enterprise Contract Governance & Financial Vault*
-> **Mission-critical Vendor & Contract Management System with multi-tier RBAC and immutable audit ledgers.**
-* **The Engineering**: Relational PostgreSQL schema with UUID primary keys, bcrypt salting, JWT stateless token verification, and transaction-safe document pipelines.
-* **The Art**: Bringing architectural harmony, strict mathematical order, and airtight control to corporate contract entropy.
-* **Stack**: `Node.js` • `Express.js` • `PostgreSQL` • `JWT & bcrypt` • `Chart.js` • `Multer`
-* 🔗 **[Inspect Blueprint →](https://github.com/preyanshbhagatwala-web/VCMS)**
+### 🏛️ **03 / VCMS** — *Enterprise Contract Governance & Audit Vault*
+> **Mission-critical Vendor & Contract Management System with multi-tier RBAC and immutable ledgers.**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎨 The Interaction Design**
+- Bespoke enterprise design system with dynamic canvas background engine.
+- Interactive Chart.js spend analytics and risk tier telemetry matrices.
+- Multi-language localized UI with seamless dark/light visual modes.
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ The System Architecture**
+- Relational PostgreSQL schema with UUID keys and connection pooling.
+- Granular 6-role RBAC enforcement middleware (`requireRole`).
+- Transaction-safe Multer document repository and immutable audit trail.
+
+</td>
+</tr>
+</table>
+
+* **Tech Stack**: `Node.js` • `Express.js` • `PostgreSQL` • `JWT & bcrypt` • `Chart.js` • `Multer`  
+* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/VCMS)**
 
 ---
 
-## 🎨 The Engineering Palette
+## 🎨 The Dual Arsenal: Design & Engineering
 
 <div align="center">
 
-### Core Languages & Runtimes
+### ✦ Visual Design & Interaction Architecture
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,nodejs,html,css" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=figma,html,css,tailwind,react,vite" alt="Design & Frontend" />
 </p>
 
-### Frameworks & UI Engines
+### ✦ High-Scale Systems & Infrastructure
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,express,flask" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,py,flask,postgres" alt="Backend & Systems" />
 </p>
 
-### Persistence, Intelligence & Cloud
+### ✦ Intelligence, DevOps & Tooling
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,scikitlearn,git,github,vercel,postman" alt="Cloud & Tools" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn,git,github,vercel,postman,linux" alt="Tools & Cloud" />
 </p>
 
 </div>
 
 ---
 
-## 📈 System Telemetry & Activity
+## 📈 System Telemetry & Live Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=preyanshbhagatwala-web&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F0FF&icon_color=FF79C6&text_color=99AAB5" height="155" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=preyanshbhagatwala-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0E17&title_color=00F0FF&text_color=99AAB5" height="155" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=preyanshbhagatwala-web&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080B10&title_color=00F0FF&icon_color=EC4899&text_color=94A3B8" height="155" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=preyanshbhagatwala-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=080B10&title_color=00F0FF&text_color=94A3B8" height="155" alt="Top Languages" />
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=preyanshbhagatwala-web&theme=tokyonight&hide_border=true&background=0A0E17&fire=00F0FF&ring=FF79C6&currStreakLabel=ACTIVE+STREAK" height="160" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=preyanshbhagatwala-web&theme=tokyonight&hide_border=true&background=080B10&fire=00F0FF&ring=A855F7&currStreakLabel=ACTIVE+STREAK" height="160" alt="GitHub Streak" />
 
 </div>
 
@@ -134,7 +197,7 @@ struct EngineerDossier {
 
 <div align="center">
 
-Whether you're architecting an enterprise system, launching a high-concurrency venture, or exploring high-impact AI/Climate Tech:
+Whether you're architecting an enterprise system, building a next-gen consumer experience, or pushing the boundaries of AI & Climate Tech:
 
 <br>
 
@@ -142,13 +205,13 @@ Whether you're architecting an enterprise system, launching a high-concurrency v
   <img src="https://img.shields.io/badge/DISPATCH_COMMUNICATION-preyanshbhagatwala%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
 </a>
 <a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://img.shields.io/badge/EXPLORE_CATALOG-preyanshbhagatwala--web-BD93F9?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" />
+  <img src="https://img.shields.io/badge/EXPLORE_CATALOG-preyanshbhagatwala--web-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <br><br>
 
 ```text
-// EOF — Built with relentless engineering standards & uncompromised aesthetic vision.
+// EOF — Built with relentless engineering precision & uncompromised aesthetic obsession.
 ```
 
 </div>
