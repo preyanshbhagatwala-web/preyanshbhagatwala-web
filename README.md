@@ -1,17 +1,17 @@
 ﻿<div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--       CUSTOM DESIGN TECHNOLOGIST & SYSTEMS ARCHITECT HERO       -->
+<!--                PREMIUM CYBERNETIC HERO BANNER                  -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala — Software Engineer & Design Technologist" />
+<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala — Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
 
-<!-- SUBTITLE PULSE WITH ACTIVE STATUS -->
+<!-- STATUS & SPECIALTY BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%26_DESIGNER-080B10?style=for-the-badge&logo=figma&logoColor=00F0FF" />
-  <img src="https://img.shields.io/badge/CRAFT-SYSTEMS_ARCHITECTURE-080B10?style=for-the-badge&logo=codewars&logoColor=A855F7" />
-  <img src="https://img.shields.io/badge/INTELLIGENCE-MACHINE_LEARNING-080B10?style=for-the-badge&logo=scikitlearn&logoColor=EC4899" />
-  <img src="https://img.shields.io/badge/BASE-INDIA-080B10?style=for-the-badge&logo=googlemaps&logoColor=50FA7B" />
+  <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER-06080F?style=for-the-badge&logo=visual-studio-code&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/DOMAIN-FULL_STACK_DEVELOPER-06080F?style=for-the-badge&logo=react&logoColor=818CF8" />
+  <img src="https://img.shields.io/badge/SPECIALTY-AI%20%26%20MACHINE_LEARNING-06080F?style=for-the-badge&logo=scikitlearn&logoColor=F43F5E" />
+  <img src="https://img.shields.io/badge/LOCATION-INDIA-06080F?style=for-the-badge&logo=googlemaps&logoColor=10B981" />
 </p>
 
 </div>
@@ -19,40 +19,41 @@
 ---
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--              CODEX: WHERE CODE COLLIDES WITH ART               -->
+<!--          ENGINEERING PROFILE & WORKSPACE ILLUSTRATION          -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
 <table>
 <tr>
-<td width="54%" valign="middle">
+<td width="55%" valign="middle">
 
-### ✦ The Design Engineer's Codex
+### ✦ The Engineering Codex
 
-> *"Engineering without design is sterile utility.*  
-> *Design without engineering is an unbuildable dream.*  
-> *I build at the exact intersection: crafting fault-tolerant, high-throughput systems with the mathematical rigor of an enterprise staff engineer and the relentless aesthetic obsession of an avant-garde designer."*
+> *"I approach software development with high technical standards and a relentless commitment to craftsmanship — building full-stack platforms and machine learning systems that are architecturally resilient, functionally robust, and exceptionally well-crafted."*
 
 ```typescript
-const EngineerProfile: ProfileSpec = {
+const EngineerProfile: Profile = {
   identity: "Preyansh Bhagatwala",
-  discipline: "Software Engineering & Interaction Design",
-  corePrinciples: [
-    "Design tokens as the immutable source of truth",
-    "Sub-16ms render choreography & 60fps kinetic motion",
-    "Deterministic state machines with zero-entropy backends"
+  roles: [
+    "Software Engineer",
+    "Full Stack Developer",
+    "AI/ML Enthusiast"
   ],
-  canvas: "Figma ──► AST / DOM ──► PostgreSQL / ML Pipelines",
-  status: "Composing high-impact systems across Climate & Enterprise"
+  coreCompetencies: [
+    "End-to-end full-stack architectures & modern responsive interfaces",
+    "High-throughput REST microservices & relational database schemas",
+    "Predictive machine learning models & data pipeline engineering"
+  ],
+  status: "Engineering scalable platforms & integrating intelligent ML systems"
 };
 ```
 
 </td>
-<td width="46%" align="center" valign="middle">
+<td width="45%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 14px; border: 1px solid #1E2E48;" alt="Preyansh Bhagatwala Studio" />
+<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 14px; border: 1px solid #1E293B;" alt="Developer Workstation" />
 
 <br>
-<sub><b>ISOMETRIC COMMAND CENTER // DUAL-TELEMETRY WORKSTATION</b></sub>
+<sub><b>COMMAND CENTER // DUAL-TELEMETRY WORKSPACE</b></sub>
 
 </td>
 </tr>
@@ -60,116 +61,65 @@ const EngineerProfile: ProfileSpec = {
 
 ---
 
-## 🏛️ System Blueprints & Case Studies
+## 🏛️ Featured Engineering Projects
 
 ```
 ========================================================================================
-  FEATURED ARCHITECTURES: RIGOROUS LOGIC MEETS INTUITIVE INTERFACES
+  KEY ARCHITECTURES: PRODUCTION FULL-STACK & MACHINE LEARNING PLATFORMS
 ========================================================================================
 ```
 
-### 🌪️ **01 / TRINETRA V2** — *Autonomous Parametric Resilience Engine*
-> **AI-powered parametric climate risk platform safeguarding gig delivery workers from extreme weather disruption.**
+### 🌪️ **01 / TRINETRA V2** — *AI-Powered Parametric Climate Risk Platform*
+> **Automated parametric income protection safeguarding Indian gig delivery workers from extreme weather disruption.**
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🎨 The Interaction Design**
-- Real-time meteorological telemetry radar HUD.
-- Micro-interaction state transitions during flood/heat alerts.
-- Frictionless zero-click payout validation interface.
-
-</td>
-<td width="50%" valign="top">
-
-**⚙️ The System Architecture**
-- High-concurrency automated event ingestion pipelines.
-- Parametric actuarial threshold trigger mechanisms.
-- Stateless transaction settlement layer for instant liquidity.
-
-</td>
-</tr>
-</table>
-
-* **Tech Stack**: `JavaScript` • `Parametric Risk Logic` • `Weather Telemetry APIs` • `FinTech Cloud`  
-* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/TrinetraV2)**
+* **Engineering Highlights**:
+  - Ingests real-time satellite and meteorological telemetry to monitor weather index volatility.
+  - Features automated parametric claim evaluation algorithms that eliminate manual claim delays.
+  - Built with secure transaction workflows for frictionless payouts during flash floods or heatwaves.
+* **Stack**: `JavaScript` • `Parametric Risk Logic` • `Weather Telemetry APIs` • `FinTech Cloud`  
+* 🔗 **[Explore Repository →](https://github.com/preyanshbhagatwala-web/TrinetraV2)**
 
 ---
 
-### 🌾 **02 / CROP YIELD PREDICTOR** — *Machine Learning Planetary Agronomics*
-> **Multi-variable harvest forecasting platform analyzing 28,000+ historical records across 100+ countries.**
+### 🌾 **02 / CROP YIELD PREDICTOR** — *End-to-End ML Harvest Forecasting Platform*
+> **Multi-variable agricultural yield forecasting system analyzing 28,000+ historical records across 100+ countries.**
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🎨 The Interaction Design**
-- Continuous logarithmic yield ribbon visualizer mapping bimodal distributions.
-- Real-time parameter bound validation with reactive form kinetics.
-- Responsive, glassmorphic analytics dashboard built with Recharts.
-
-</td>
-<td width="50%" valign="top">
-
-**⚙️ The System Architecture**
-- Scikit-learn Random Forest regressor with cross-validated hyperparameter tuning.
-- Real-time interaction space derivation (`rainfall × temp`, `pesticide ratio`).
-- Sub-second Flask REST API inference engine with CORS middleware.
-
-</td>
-</tr>
-</table>
-
-* **Tech Stack**: `Python` • `Scikit-Learn` • `Flask REST API` • `React 18` • `Vite` • `Recharts`  
-* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/crop-yield-predictor)**
+* **Engineering Highlights**:
+  - Trained an optimized Random Forest Regressor pipeline with cross-validated parameter tuning.
+  - Derives real-time interaction features (`rainfall × temperature`, `pesticide-to-rainfall ratio`).
+  - High-performance Flask REST API backend paired with an interactive React 18 & Vite client dashboard.
+* **Stack**: `Python` • `Scikit-Learn` • `Flask REST API` • `React 18` • `Vite` • `Recharts`  
+* 🔗 **[Explore Repository →](https://github.com/preyanshbhagatwala-web/crop-yield-predictor)**
 
 ---
 
-### 🏛️ **03 / VCMS** — *Enterprise Contract Governance & Audit Vault*
-> **Mission-critical Vendor & Contract Management System with multi-tier RBAC and immutable ledgers.**
+### 🏛️ **03 / VCMS** — *Enterprise Vendor & Contract Management System*
+> **Mission-critical governance platform featuring 6-tier RBAC, document repositories, and audit ledgers.**
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🎨 The Interaction Design**
-- Bespoke enterprise design system with dynamic canvas background engine.
-- Interactive Chart.js spend analytics and risk tier telemetry matrices.
-- Multi-language localized UI with seamless dark/light visual modes.
-
-</td>
-<td width="50%" valign="top">
-
-**⚙️ The System Architecture**
-- Relational PostgreSQL schema with UUID keys and connection pooling.
-- Granular 6-role RBAC enforcement middleware (`requireRole`).
-- Transaction-safe Multer document repository and immutable audit trail.
-
-</td>
-</tr>
-</table>
-
-* **Tech Stack**: `Node.js` • `Express.js` • `PostgreSQL` • `JWT & bcrypt` • `Chart.js` • `Multer`  
-* 🔗 **[Explore Architecture Blueprint →](https://github.com/preyanshbhagatwala-web/VCMS)**
+* **Engineering Highlights**:
+  - Relational PostgreSQL database schema with UUID primary keys and connection pooling.
+  - Granular 6-role RBAC security middleware (`admin`, `manager`, `legal`, `finance`, `auditor`, `viewer`).
+  - Multipart document attachment pipeline with Multer and complete chronological audit logging.
+* **Stack**: `Node.js` • `Express.js` • `PostgreSQL` • `JWT & bcrypt` • `Chart.js` • `Multer`  
+* 🔗 **[Explore Repository →](https://github.com/preyanshbhagatwala-web/VCMS)**
 
 ---
 
-## 🎨 The Dual Arsenal: Design & Engineering
+## 🧰 Technical Arsenal
 
 <div align="center">
 
-### ✦ Visual Design & Interaction Architecture
+### ✦ Frontend & Client Engineering
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,html,css,tailwind,react,vite" alt="Design & Frontend" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind" alt="Frontend Stack" />
 </p>
 
-### ✦ High-Scale Systems & Infrastructure
+### ✦ Backend, APIs & Relational Storage
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,py,flask,postgres" alt="Backend & Systems" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,py,flask,postgres" alt="Backend Stack" />
 </p>
 
-### ✦ Intelligence, DevOps & Tooling
+### ✦ Machine Learning, Cloud & DevOps
 <p align="center">
   <img src="https://skillicons.dev/icons?i=scikitlearn,git,github,vercel,postman,linux" alt="Tools & Cloud" />
 </p>
@@ -178,40 +128,40 @@ const EngineerProfile: ProfileSpec = {
 
 ---
 
-## 📈 System Telemetry & Live Activity
+## 📈 Activity Telemetry & GitHub Metrics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=preyanshbhagatwala-web&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080B10&title_color=00F0FF&icon_color=EC4899&text_color=94A3B8" height="155" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=preyanshbhagatwala-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=080B10&title_color=00F0FF&text_color=94A3B8" height="155" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=preyanshbhagatwala-web&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06080F&title_color=00F0FF&icon_color=F43F5E&text_color=94A3B8" height="155" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=preyanshbhagatwala-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=06080F&title_color=00F0FF&text_color=94A3B8" height="155" alt="Top Languages" />
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=preyanshbhagatwala-web&theme=tokyonight&hide_border=true&background=080B10&fire=00F0FF&ring=A855F7&currStreakLabel=ACTIVE+STREAK" height="160" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=preyanshbhagatwala-web&theme=tokyonight&hide_border=true&background=06080F&fire=00F0FF&ring=818CF8&currStreakLabel=ACTIVE+STREAK" height="160" alt="GitHub Streak" />
 
 </div>
 
 ---
 
-## 📡 Transmission Frequency
+## 📡 Connect & Collaborate
 
 <div align="center">
 
-Whether you're architecting an enterprise system, building a next-gen consumer experience, or pushing the boundaries of AI & Climate Tech:
+Open to collaborations on full-stack applications, machine learning projects, and high-performance software engineering:
 
 <br>
 
 <a href="mailto:preyanshbhagatwala@gmail.com">
-  <img src="https://img.shields.io/badge/DISPATCH_COMMUNICATION-preyanshbhagatwala%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
+  <img src="https://img.shields.io/badge/EMAIL-preyanshbhagatwala%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
 </a>
 <a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://img.shields.io/badge/EXPLORE_CATALOG-preyanshbhagatwala--web-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-preyanshbhagatwala--web-818CF8?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <br><br>
 
 ```text
-// EOF — Built with relentless engineering precision & uncompromised aesthetic obsession.
+// Built with precision, performance, and craftsmanship.
 ```
 
 </div>
