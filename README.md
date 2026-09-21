@@ -1,17 +1,21 @@
 ﻿<div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!--                   KINETIC TYPOGRAPHY BANNER                    -->
+<!--               PERMANENT STATIC NAME + DYNAMIC SUBTITLE          -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
+# ⚡ PREYANSH BHAGATWALA ⚡
+### *Systems Architect & Creative Technologist*
+
+<!-- DYNAMIC SUBTITLE: NAME REMAINS CONSTANT, TITLES ANIMATE UNDERNEATH -->
 <a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&pause=1200&color=00F0FF&center=true&vCenter=true&width=780&height=75&lines=PREYANSH+BHAGATWALA;SYSTEMS+ARCHITECT+%2F%2F+DIGITAL+ARTIST;BUILDING+AT+THE+COLLISION+OF+SCALE+%26+ART" alt="Preyansh Bhagatwala — Kinetic Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=21&pause=1000&color=00F0FF&center=true&vCenter=true&width=720&height=40&lines=Building+High-Throughput+Distributed+Platforms;Translating+Complex+Mathematical+Models+into+Art;ClimateTech+%E2%80%A2+Parametric+FinTech+%E2%80%A2+Predictive+ML;Operating+at+the+Collision+of+Performance+%26+Design" alt="Dynamic Roles" />
 </a>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ARCHITECT-DISTRIBUTED_SYSTEMS-0A0E17?style=for-the-badge&logo=codewars&logoColor=00F0FF" />
   <img src="https://img.shields.io/badge/FOUNDATION-MACHINE_LEARNING-0A0E17?style=for-the-badge&logo=scikitlearn&logoColor=FFB86C" />
-  <img src="https://img.shields.io/badge/LOCATION-INDIA-0A0E17?style=for-the-badge&logo=googlemaps&logoColor=50FA7B" />
+  <img src="https://img.shields.io/badge/LOCATION-INDIA_%F0%9F%87%AE%F0%9F%87%B3-0A0E17?style=for-the-badge&logo=googlemaps&logoColor=50FA7B" />
   <img src="https://img.shields.io/badge/STATUS-COMPOSING_NEW_REALMS-0A0E17?style=for-the-badge&logo=target&logoColor=FF79C6" />
 </p>
 
@@ -19,25 +23,43 @@
 
 ---
 
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--           MANIFESTO & ISOMETRIC COMMAND CENTER             -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<table>
+<tr>
+<td width="55%" valign="middle">
+
 ### 💭 The Manifesto
 
-> *"Most engineers build systems that function. Artists craft artifacts that provoke.*  
-> *I exist at the exact collision point: architecting fault-tolerant, high-throughput engines with the mathematical precision of a staff engineer and the obsessive vision of a sculptor."*
+> *"Most engineers build systems that simply function.*  
+> *Artists craft digital experiences that evoke and endure.*  
+> *I operate at the collision point: architecting fault-tolerant, high-throughput engines with the mathematical precision of a staff software engineer and the relentless obsession of a digital sculptor."*
 
----
-
-## 🛰️ Operational Dossier
+<br>
 
 ```rust
-struct EngineerProfile {
+struct EngineerDossier {
     identity:    "Preyansh Bhagatwala",
     discipline:  "Distributed Systems, Applied ML, Fault-Tolerant Microservices",
-    ethos:       "Deterministic state machines, mechanical sympathy, zero unnecessary abstractions",
-    mediums:     ["TypeScript", "Python", "Node.js", "PostgreSQL", "React", "Scikit-Learn"],
-    coordinates: "India 🇮🇳 (Building for global scale)",
-    philosophy:  "Code is living infrastructure. Build it strong enough to endure, beautiful enough to inspire."
+    ethos:       "Deterministic state machines, mechanical sympathy, zero bloat",
+    mediums:     ["TypeScript", "Python", "Node.js", "PostgreSQL", "React"],
+    coordinates: "India 🇮🇳 // Deploying globally"
 }
 ```
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 12px;" alt="Developer Command Center" />
+
+<br>
+<sub><b>ISOMETRIC COMMAND CENTER // DUAL-TELEMETRY SETUP</b></sub>
+
+</td>
+</tr>
+</table>
 
 ---
 
