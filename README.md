@@ -1,181 +1,73 @@
 <div align="center">
-
-<!-- ================================================================= -->
-<!--           OBSIDIAN & ROYAL CYAN-GOLD EXECUTIVE HERO BANNER        -->
-<!-- ================================================================= -->
-
-<img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
-
-<br><br>
-
-# Hi there, I'm Preyansh Bhagatwala 👋
-### 🚀 Software Engineer &amp; Full Stack Developer &nbsp;|&nbsp; 🧠 AI/ML Enthusiast
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20OPPORTUNITIES-10B981?style=for-the-badge&logo=codeforces&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/LOCATION-INDIA%20[UTC%20%2B5:30]-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/CORE-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-F59E0B?style=for-the-badge&logo=visual-studio-code&logoColor=black" />
-</p>
-
-> *"Architecting mission-critical enterprise backends, reactive web systems, and predictive machine learning platforms with production durability and creative precision."*
-
+  <img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer" />
 </div>
 
----
+<br>
 
-## ⚡ Whoami
+# Preyansh Bhagatwala
+### Software Engineer &nbsp;•&nbsp; Full Stack Developer &nbsp;•&nbsp; AI/ML Enthusiast
 
-```typescript
-const Preyansh: SoftwareEngineer = {
-  identity: "Preyansh Bhagatwala",
-  roles: [
-    "Software Engineer",
-    "Full Stack Developer",
-    "AI/ML Enthusiast"
-  ],
-  stack: {
-    enterpriseBackend: ["Java", "Python", "Node.js", "Express.js", "Flask", "PostgreSQL"],
-    modernFrontend:    ["React 18", "Vite", "TypeScript", "JavaScript", "Tailwind CSS"],
-    appliedAI:         ["Scikit-Learn", "Machine Learning Pipelines", "NumPy", "Pandas"]
-  },
-  mission: "Building scalable distributed architectures and high-precision machine learning platforms."
-};
-```
+I am a Software Engineer focused on building scalable backend architectures, reliable full-stack applications, and applied machine learning platforms. My work centers on delivering production-grade systems with strong data integrity, high-throughput APIs, and clean software architecture.
+
+- 🔭 **Core Stack**: Java, Python, Node.js, Express.js, Flask, PostgreSQL, React 18, TypeScript.
+- 🧠 **Machine Learning**: Scikit-Learn, Random Forest Regressors, Pandas, NumPy, predictive pipeline engineering.
+- 📍 **Location**: India [UTC +5:30]
+- 💼 **Status**: Available for Software Engineering and Full Stack Developer opportunities.
 
 ---
 
-## 💻 Technical Arsenal
+## 🛠️ Technical Competencies
 
-<div align="center">
-
-### ☕ Enterprise Backend & Distributed Systems
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,nodejs,express,flask,postgres" alt="Backend Stack" />
-</p>
-<p>
-  <b>Java (Core &amp; OOP)</b> • <b>Python</b> • <b>Node.js</b> • <b>Express.js</b> • <b>Flask</b> • <b>PostgreSQL</b> • <b>RESTful APIs</b>
-</p>
-
-<br>
-
-### ⚛️ Frontend & Modern Web Interfaces
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind,html,css" alt="Frontend Stack" />
-</p>
-<p>
-  <b>React 18</b> • <b>TypeScript</b> • <b>JavaScript</b> • <b>Vite</b> • <b>Tailwind CSS</b> • <b>Responsive Architecture</b>
-</p>
-
-<br>
-
-### 🧠 Applied Machine Learning & Data Intelligence
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,py" alt="AI Stack" />
-</p>
-<p>
-  <b>Scikit-Learn</b> • <b>Random Forest Regressors</b> • <b>Pandas</b> • <b>NumPy</b> • <b>Feature Engineering</b>
-</p>
-
-<br>
-
-### 🛠️ DevOps, Cloud & Tooling
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vercel,bash,linux" alt="Tools & Cloud" />
-</p>
-<p>
-  <b>Git</b> • <b>GitHub</b> • <b>Postman</b> • <b>Vercel</b> • <b>Bash / Linux</b> • <b>npm</b>
-</p>
-
-</div>
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Enterprise Backend** | `Java (OOP & Core Systems)`, `Python`, `Node.js`, `Express.js`, `Flask`, `RESTful APIs`, `Microservices Architecture` |
+| **Databases & Storage** | `PostgreSQL`, `Relational Data Modeling`, `Indexing`, `Connection Pooling`, `SQL` |
+| **Frontend & Web** | `React 18`, `TypeScript`, `JavaScript`, `Vite`, `Tailwind CSS`, `HTML5`, `CSS3`, `Responsive Architecture` |
+| **Machine Learning & Data** | `Scikit-Learn`, `Random Forest Regressors`, `Pandas`, `NumPy`, `Feature Pipelines`, `Data Preprocessing` |
+| **DevOps & Developer Tools** | `Git`, `GitHub`, `Postman`, `Vercel`, `Linux / Bash`, `npm`, `CI/CD Workflows` |
 
 ---
 
-## 🏛️ Featured Engineering Deployments
+## 🏛️ Featured Engineering Projects
 
-```
-========================================================================================
-  CORE PRODUCTION PLATFORMS: SCALED ARCHITECTURES & APPLIED MACHINE LEARNING
-========================================================================================
-```
-
-### 🛡️ **01 / TRINETRA V2** — *Parametric Climate Risk & Automated Micro-Insurance Engine*
+### 🛡️ [Trinetra V2](https://github.com/preyanshbhagatwala-web/TrinetraV2) — Parametric Climate Risk Platform
 > **Automated parametric income protection safeguarding Indian gig delivery workers from extreme weather disruption.**
 
-* **Architectural Highlights**:
-  - Ingests real-time meteorological telemetry and environmental thresholds to detect acute climate disruptions.
-  - Implements algorithmic parametric claim triggers that calculate compensation without manual insurance bureaucracy.
-  - Built with secure transaction ledgers and financial resilience logic for rapid micro-payout execution.
-* **Core Stack**: `JavaScript` • `Parametric Risk Logic` • `Weather Telemetry APIs` • `FinTech Cloud`  
-* 🔗 **[Explore TrinetraV2 Repository →](https://github.com/preyanshbhagatwala-web/TrinetraV2)**
+- **Architecture**: Ingests real-time meteorological telemetry and environmental thresholds to detect acute climate disruptions.
+- **Parametric Trigger Logic**: Calculates claim compensation automatically when weather indices exceed predefined limits, eliminating manual insurance claims lag.
+- **Stack**: `JavaScript`, `Parametric Risk Logic`, `Weather Telemetry APIs`, `FinTech Cloud`
 
 ---
 
-### 🌾 **02 / CROP YIELD PREDICTOR** — *End-to-End ML Harvest Analytics Platform*
+### 🌾 [Crop Yield Predictor](https://github.com/preyanshbhagatwala-web/crop-yield-predictor) — End-to-End Machine Learning Platform
 > **Multi-variable agricultural yield forecasting system analyzing 28,000+ historical records across 100+ countries.**
 
-* **Architectural Highlights**:
-  - Trained an optimized Random Forest Regressor pipeline with cross-validated parameter tuning.
-  - Synthesizes real-time interaction features (`rainfall × temperature`, `pesticide-to-rainfall ratio`).
-  - High-throughput Flask REST API backend paired with an interactive React 18 & Vite client dashboard.
-* **Core Stack**: `Python` • `Scikit-Learn` • `Flask REST API` • `React 18` • `Vite` • `Recharts`  
-* 🔗 **[Explore crop-yield-predictor Repository →](https://github.com/preyanshbhagatwala-web/crop-yield-predictor)**
+- **Machine Learning Pipeline**: Trained an optimized Random Forest Regressor pipeline with cross-validated parameter tuning.
+- **Engineered Features**: Derives real-time interaction features (`rainfall × temperature`, `pesticide-to-rainfall ratio`) to maximize predictive accuracy.
+- **Decoupled Architecture**: High-throughput Flask REST API backend paired with a responsive React 18 & Vite analytics dashboard.
+- **Stack**: `Python`, `Scikit-Learn`, `Flask REST API`, `React 18`, `Vite`, `Tailwind CSS`, `Recharts`
 
 ---
 
-### 🏢 **03 / VCMS** — *Enterprise Vendor & Contract Management System*
-> **Mission-critical governance platform featuring 6-tier RBAC, document repositories, and audit ledgers.**
+### 🏢 [VCMS (Vendor & Contract Management System)](https://github.com/preyanshbhagatwala-web/VCMS) — Enterprise Governance Platform
+> **Mission-critical governance platform featuring 6-tier Role-Based Access Control (RBAC), document repositories, and audit ledgers.**
 
-* **Architectural Highlights**:
-  - Relational PostgreSQL database schema with UUID primary keys, connection pooling, and relational integrity.
-  - Granular 6-role RBAC security middleware (`admin`, `manager`, `legal`, `finance`, `auditor`, `viewer`).
-  - Multipart document attachment pipeline with Multer and complete chronological audit logging.
-* **Core Stack**: `Java / Node.js` • `Express.js` • `PostgreSQL` • `JWT & bcrypt` • `Chart.js` • `Multer`  
-* 🔗 **[Explore VCMS Repository →](https://github.com/preyanshbhagatwala-web/VCMS)**
+- **Security & RBAC**: Implements strict 6-tier authorization middleware (`admin`, `manager`, `legal`, `finance`, `auditor`, `viewer`) with JWT session handling.
+- **Relational Integrity**: Designed PostgreSQL database schema with UUID primary keys, connection pooling, and relational foreign-key integrity.
+- **Audit Logging**: Comprehensive chronological audit trail capturing all procurement lifecycle transitions and document attachment events.
+- **Stack**: `Java / Node.js`, `Express.js`, `PostgreSQL`, `JWT & bcrypt`, `Multer`, `Chart.js`
 
 ---
 
-## 📊 System Telemetry & Capabilities
+## 📊 Technical Overview & Capabilities
 
 <div align="center">
-
-<img src="assets/metrics-telemetry.svg" width="100%" alt="Production Telemetry & Capabilities" />
-
+  <img src="assets/metrics-telemetry.svg" width="100%" alt="Technical Overview & Capabilities" />
 </div>
 
 ---
 
-## 🛠️ Workstation & Development Setup
+## 📬 Contact & Links
 
-<div align="center">
-  <img src="assets/developer-workspace.png" width="320" style="border-radius: 8px; border: 1px solid #1E293B;" alt="Developer Workspace" />
-  <br>
-  <sub><b>DEV ENVIRONMENT // DUAL-TELEMETRY WORKSTATION</b></sub>
-</div>
-
----
-
-## 🌐 Connect & Collaborate
-
-<div align="center">
-
-I am always open to exploring high-impact software engineering roles, full-stack platform architectures, and cutting-edge machine learning collaborations:
-
-<br>
-
-<a href="mailto:preyanshbhagatwala@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-preyanshbhagatwala%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://img.shields.io/badge/GITHUB-preyanshbhagatwala--web-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-
-<br><br>
-
-```text
-// Engineered with architectural discipline, technical precision, and clean code.
-```
-
-</div>
+- **Email**: [preyanshbhagatwala@gmail.com](mailto:preyanshbhagatwala@gmail.com)
+- **GitHub**: [github.com/preyanshbhagatwala-web](https://github.com/preyanshbhagatwala-web)
