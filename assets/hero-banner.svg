@@ -1,196 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 340" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 260" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050711" />
-      <stop offset="50%" stop-color="#0A0E21" />
-      <stop offset="100%" stop-color="#04060E" />
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080D" />
+      <stop offset="60%" stop-color="#0B0E17" />
+      <stop offset="100%" stop-color="#05060A" />
     </linearGradient>
 
-    <!-- Radial Glowing Orbs -->
-    <radialGradient id="cyanOrb" cx="12%" cy="25%" r="45%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="purpleOrb" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="pinkOrb" cx="88%" cy="75%" r="45%">
-      <stop offset="0%" stop-color="#FF007A" stop-opacity="0.20" />
-      <stop offset="100%" stop-color="#FF007A" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Dynamic Animated Name Gradient -->
-    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF">
-        <animate attributeName="stop-color" values="#00F0FF;#A855F7;#FF007A;#00F0FF" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#A855F7">
-        <animate attributeName="stop-color" values="#A855F7;#FF007A;#00F0FF;#A855F7" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#FF007A">
-        <animate attributeName="stop-color" values="#FF007A;#00F0FF;#A855F7;#FF007A" dur="8s" repeatCount="indefinite" />
-      </stop>
+    <!-- Platinum & Titanium Metallic Text -->
+    <linearGradient id="metalTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#94A3B8" />
     </linearGradient>
 
-    <!-- Flowing Wave Gradients -->
-    <linearGradient id="waveCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.2" />
-    </linearGradient>
-    <linearGradient id="wavePink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#EC4899" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.5" />
+    <!-- Subtle Cyan-Blue Laser Accent -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Border Gradients -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.85" />
-      <stop offset="35%" stop-color="#8B5CF6" stop-opacity="0.4" />
-      <stop offset="70%" stop-color="#FF007A" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.9" />
-    </linearGradient>
-
-    <!-- Pattern Grid -->
-    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#161F36" stroke-width="0.7" stroke-opacity="0.45" />
-      <circle cx="28" cy="28" r="1.1" fill="#8B5CF6" fill-opacity="0.35" />
+    <!-- Precision Architectural Hairline Grid -->
+    <pattern id="archGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#141824" stroke-width="0.6" stroke-opacity="0.6" />
     </pattern>
 
-    <!-- Embedded Keyframe Animations -->
+    <!-- Linear Border Gradient -->
+    <linearGradient id="frameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="25%" stop-color="#1E293B" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#1E293B" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.5" />
+    </linearGradient>
+
     <style>
-      @keyframes glowPulse {
-        0%, 100% { filter: drop-shadow(0 0 16px rgba(0,240,255,0.45)) drop-shadow(0 0 35px rgba(168,85,247,0.25)); }
-        50% { filter: drop-shadow(0 0 28px rgba(255,0,122,0.65)) drop-shadow(0 0 50px rgba(0,240,255,0.45)); }
+      @keyframes laserSweep {
+        0% { transform: translateX(-1000px); }
+        100% { transform: translateX(1000px); }
       }
-      @keyframes dashMove {
-        to { stroke-dashoffset: -1200; }
+      @keyframes subtlePulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
       }
-      @keyframes pulseBeacon {
-        0% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.7); opacity: 0.35; }
-        100% { transform: scale(2.3); opacity: 0; }
+      .laser-beam {
+        animation: laserSweep 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       }
-      .brand-title {
-        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', Roboto, sans-serif;
-        font-weight: 900;
-        letter-spacing: 5.5px;
-        animation: glowPulse 6s infinite ease-in-out;
+      .status-pulse {
+        animation: subtlePulse 2.5s infinite ease-in-out;
       }
-      .wave-one {
-        stroke-dasharray: 14, 10;
-        animation: dashMove 36s linear infinite;
+      .mono-text {
+        font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
       }
-      .wave-two {
-        stroke-dasharray: 18, 12;
-        animation: dashMove 48s linear reverse infinite;
-      }
-      .beacon-ring {
-        animation: pulseBeacon 2.2s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
-        transform-origin: 16px 16px;
+      .sans-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, Helvetica, Arial, sans-serif;
       }
     </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="980" height="340" rx="18" fill="url(#canvasBg)" stroke="url(#borderGrad)" stroke-width="1.6" />
+  <!-- Canvas Base -->
+  <rect width="980" height="260" rx="10" fill="url(#bgGrad)" stroke="url(#frameBorder)" stroke-width="1.2" />
   
-  <!-- Glowing Atmospheric Light Cones -->
-  <rect width="980" height="340" rx="18" fill="url(#cyanOrb)" />
-  <rect width="980" height="340" rx="18" fill="url(#purpleOrb)" />
-  <rect width="980" height="340" rx="18" fill="url(#pinkOrb)" />
+  <!-- Architectural Grid Layer -->
+  <rect width="980" height="260" rx="10" fill="url(#archGrid)" />
 
-  <!-- Digital Circuit / Coordinate Grid -->
-  <rect width="980" height="340" rx="18" fill="url(#dotGrid)" />
-
-  <!-- Generative Curvilinear Waves (Creative Code Visuals) -->
-  <g opacity="0.8">
-    <path d="M -40 250 C 140 160, 260 320, 470 230 C 680 140, 800 290, 1020 200" 
-          fill="none" stroke="url(#waveCyan)" stroke-width="2.6" class="wave-one" />
-    <path d="M -40 280 C 170 210, 310 350, 520 260 C 730 170, 850 310, 1020 230" 
-          fill="none" stroke="url(#wavePink)" stroke-width="2" class="wave-two" />
-    <path d="M -40 220 C 200 120, 360 300, 570 190 C 760 100, 870 250, 1020 160" 
-          fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="5, 6" />
+  <!-- Laser Beam Sweep Effect on Top Border -->
+  <g clip-path="url(#borderClip)">
+    <rect x="0" y="0" width="300" height="1.8" fill="url(#laserGrad)" class="laser-beam" />
   </g>
 
-  <!-- Precision Corner Reticles -->
-  <path d="M 28 18 L 18 18 L 18 28" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 952 18 L 962 18 L 962 28" fill="none" stroke="#FF007A" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 28 322 L 18 322 L 18 312" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 952 322 L 962 322 L 962 312" fill="none" stroke="#FF007A" stroke-width="2.5" stroke-linecap="round" />
-
-  <!-- Top Telemetry Row -->
-  <g transform="translate(32, 38)">
-    <circle cx="0" cy="0" r="3" fill="#00F0FF" />
-    <text x="12" y="4" font-family="'Cascadia Code', 'Fira Code', monospace" font-size="11" fill="#38BDF8" font-weight="700" letter-spacing="2">DEV.ENGINE // 0xPREYANSH</text>
-    <text x="235" y="4" font-family="'Cascadia Code', 'Fira Code', monospace" font-size="10.5" fill="#64748B" letter-spacing="1.5">LOCATION: IN [UTC+5:30]</text>
-    <text x="465" y="4" font-family="'Cascadia Code', 'Fira Code', monospace" font-size="10.5" fill="#64748B" letter-spacing="1.5">CORE: FULL-STACK &amp; APPLIED AI</text>
+  <!-- Precision Technical Reticles (Hairline Crosses) -->
+  <g stroke="#334155" stroke-width="0.8">
+    <!-- Top Left Cross -->
+    <line x1="20" y1="16" x2="20" y2="24" />
+    <line x1="16" y1="20" x2="24" y2="20" />
+    <!-- Top Right Cross -->
+    <line x1="960" y1="16" x2="960" y2="24" />
+    <line x1="956" y1="20" x2="964" y2="20" />
+    <!-- Bottom Left Cross -->
+    <line x1="20" y1="236" x2="20" y2="244" />
+    <line x1="16" y1="240" x2="24" y2="240" />
+    <!-- Bottom Right Cross -->
+    <line x1="960" y1="236" x2="960" y2="244" />
+    <line x1="956" y1="240" x2="964" y2="240" />
   </g>
 
-  <!-- Live Pulse Status Beacon -->
-  <g transform="translate(735, 25)">
-    <rect width="215" height="28" rx="14" fill="#081022" stroke="#10B981" stroke-opacity="0.6" stroke-width="1.2" />
-    <circle cx="16" cy="14" r="5" fill="#10B981" class="beacon-ring" />
-    <circle cx="16" cy="14" r="4" fill="#10B981" />
-    <text x="32" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="10" fill="#34D399" letter-spacing="1.2">SYSTEM OPERATIONAL</text>
+  <!-- Header Telemetry Bar -->
+  <g transform="translate(36, 30)">
+    <circle cx="0" cy="0" r="2.5" fill="#38BDF8" />
+    <text x="10" y="3.5" class="mono-text" font-size="10" fill="#38BDF8" font-weight="700" letter-spacing="2">SYS.ID // PREYANSH.ARCH</text>
+    <text x="210" y="3.5" class="mono-text" font-size="9.5" fill="#64748B" letter-spacing="1.5">DOMAIN: FULL-STACK SYSTEMS &amp; MACHINE LEARNING</text>
+    <text x="635" y="3.5" class="mono-text" font-size="9.5" fill="#64748B" letter-spacing="1.5">LOCATION: IN [UTC+5:30]</text>
+    
+    <!-- Status Indicator -->
+    <g transform="translate(830, 0)">
+      <circle cx="0" cy="0" r="3.5" fill="#10B981" class="status-pulse" />
+      <text x="9" y="3.5" class="mono-text" font-size="9" fill="#10B981" font-weight="700" letter-spacing="1">AVAILABLE</text>
+    </g>
   </g>
 
-  <!-- Name Hero (Centerpiece) -->
-  <g transform="translate(490, 140)" text-anchor="middle">
-    <text font-size="47" fill="url(#nameGradient)" class="brand-title">
+  <!-- Horizontal Hairline Divider -->
+  <line x1="36" y1="46" x2="944" y2="46" stroke="#1E293B" stroke-width="0.8" />
+
+  <!-- Center Executive Brand Title -->
+  <g transform="translate(490, 110)" text-anchor="middle">
+    <text class="sans-title" font-weight="800" font-size="44" fill="url(#metalTitle)" letter-spacing="7">
       PREYANSH BHAGATWALA
     </text>
   </g>
 
-  <!-- Role Subtitle Ribbon -->
-  <g transform="translate(490, 185)" text-anchor="middle">
-    <rect x="-360" y="-16" width="720" height="32" rx="16" fill="#080C1F" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
-    <text y="5.5" font-family="'Cascadia Code', 'Fira Code', monospace" font-weight="600" font-size="13.5" letter-spacing="2.8">
-      <tspan fill="#38BDF8">SOFTWARE ENGINEER</tspan>
-      <tspan fill="#64748B">  ✦  </tspan>
-      <tspan fill="#C084FC">FULL STACK DEVELOPER</tspan>
-      <tspan fill="#64748B">  ✦  </tspan>
-      <tspan fill="#F43F5E">AI/ML ENTHUSIAST</tspan>
+  <!-- Executive Role Specification -->
+  <g transform="translate(490, 144)" text-anchor="middle">
+    <text class="mono-text" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="3.5">
+      <tspan fill="#E2E8F0">SOFTWARE ENGINEER</tspan>
+      <tspan fill="#475569">   |   </tspan>
+      <tspan fill="#38BDF8">FULL STACK DEVELOPER</tspan>
+      <tspan fill="#475569">   |   </tspan>
+      <tspan fill="#A78BFA">AI/ML ENTHUSIAST</tspan>
     </text>
   </g>
 
-  <!-- Symmetrical 3 Pillars (Java Backend, Modern Web Architecture, Applied ML) -->
-  <g transform="translate(490, 250)" text-anchor="middle">
-    <!-- Pillar 1: Java & Distributed Backend -->
-    <g transform="translate(-290, 0)">
-      <rect x="-125" y="-17" width="250" height="34" rx="17" fill="#090E20" stroke="#F59E0B" stroke-opacity="0.8" stroke-width="1.3"/>
-      <circle cx="-102" cy="0" r="4" fill="#F59E0B" />
-      <text x="-88" y="5" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="11" fill="#FDE68A" letter-spacing="1">
-        JAVA &amp; DISTRIBUTED BACKEND
-      </text>
+  <!-- Horizontal Hairline Divider -->
+  <line x1="36" y1="172" x2="944" y2="172" stroke="#1E293B" stroke-width="0.8" />
+
+  <!-- Architectural Engineering Pillars (High-Density MNC Data Strip) -->
+  <g transform="translate(490, 212)" text-anchor="middle">
+    <!-- Pillar 1: Enterprise Backend & Java -->
+    <g transform="translate(-295, 0)">
+      <rect x="-130" y="-18" width="260" height="34" rx="4" fill="#0C101B" stroke="#1E293B" stroke-width="0.9"/>
+      <line x1="-130" y1="-18" x2="-130" y2="16" stroke="#38BDF8" stroke-width="2" />
+      <text x="-115" y="-3" class="mono-text" font-size="8.5" fill="#64748B" letter-spacing="1.5" text-anchor="start">01 // ENTERPRISE BACKEND</text>
+      <text x="-115" y="11" class="mono-text" font-size="11" fill="#F1F5F9" font-weight="600" text-anchor="start">Java • Node.js • PostgreSQL</text>
     </g>
 
-    <!-- Pillar 2: React & Full Stack Systems -->
+    <!-- Pillar 2: Modern Web Architecture -->
     <g transform="translate(0, 0)">
-      <rect x="-130" y="-17" width="260" height="34" rx="17" fill="#090E20" stroke="#00F0FF" stroke-opacity="0.8" stroke-width="1.3"/>
-      <circle cx="-107" cy="0" r="4" fill="#00F0FF" />
-      <text x="-93" y="5" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="11" fill="#BAE6FD" letter-spacing="1">
-        REACT &amp; SYSTEM ARCHITECTURE
-      </text>
+      <rect x="-130" y="-18" width="260" height="34" rx="4" fill="#0C101B" stroke="#1E293B" stroke-width="0.9"/>
+      <line x1="-130" y1="-18" x2="-130" y2="16" stroke="#818CF8" stroke-width="2" />
+      <text x="-115" y="-3" class="mono-text" font-size="8.5" fill="#64748B" letter-spacing="1.5" text-anchor="start">02 // CLIENT ARCHITECTURE</text>
+      <text x="-115" y="11" class="mono-text" font-size="11" fill="#F1F5F9" font-weight="600" text-anchor="start">React 18 • TypeScript • Vite</text>
     </g>
 
     <!-- Pillar 3: Machine Learning & Intelligence -->
-    <g transform="translate(290, 0)">
-      <rect x="-125" y="-17" width="250" height="34" rx="17" fill="#090E20" stroke="#EC4899" stroke-opacity="0.8" stroke-width="1.3"/>
-      <circle cx="-102" cy="0" r="4" fill="#EC4899" />
-      <text x="-88" y="5" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="11" fill="#FBCFE8" letter-spacing="1">
-        APPLIED AI &amp; ML PIPELINES
-      </text>
+    <g transform="translate(295, 0)">
+      <rect x="-130" y="-18" width="260" height="34" rx="4" fill="#0C101B" stroke="#1E293B" stroke-width="0.9"/>
+      <line x1="-130" y1="-18" x2="-130" y2="16" stroke="#34D399" stroke-width="2" />
+      <text x="-115" y="-3" class="mono-text" font-size="8.5" fill="#64748B" letter-spacing="1.5" text-anchor="start">03 // APPLIED INTELLIGENCE</text>
+      <text x="-115" y="11" class="mono-text" font-size="11" fill="#F1F5F9" font-weight="600" text-anchor="start">Scikit-Learn • ML Pipelines</text>
     </g>
   </g>
 
-  <!-- Bottom Interactive Code Art Strip -->
-  <g transform="translate(490, 308)" text-anchor="middle">
-    <text font-family="'Cascadia Code', 'Fira Code', monospace" font-size="11" fill="#64748B" letter-spacing="1.5">
-      <tspan fill="#10B981">❯</tspan> <tspan fill="#60A5FA">engineer</tspan>.<tspan fill="#F472B6">build</tspan>(<tspan fill="#FDE68A">"High-Scale Systems"</tspan>, <tspan fill="#A78BFA">"Predictive AI"</tspan>, <tspan fill="#38BDF8">"Crafted Interfaces"</tspan>)
-    </text>
+  <!-- Bottom Coordinates & Precision Monospace -->
+  <g transform="translate(36, 246)">
+    <text class="mono-text" font-size="8.5" fill="#475569" letter-spacing="1">ARCH: DISTRIBUTED &amp; RESILIENT</text>
+  </g>
+  <g transform="translate(944, 246)" text-anchor="end">
+    <text class="mono-text" font-size="8.5" fill="#475569" letter-spacing="1">HASH: 0x8F9A // MNC_PROD_SPEC</text>
   </g>
 </svg>
