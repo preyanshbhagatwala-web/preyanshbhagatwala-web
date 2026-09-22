@@ -1,118 +1,105 @@
 <div align="center">
 
-<!-- ================================================================= -->
-<!--         EXECUTIVE MNC SOFTWARE ENGINEER & SYSTEMS HERO            -->
-<!-- ================================================================= -->
-
+<!-- HERO BANNER -->
 <img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
 
 <br><br>
 
-> *"Architecting mission-critical distributed backends, modern reactive interfaces, and applied machine learning pipelines through the lens of engineering discipline and structural precision."*
+# Hi there, I'm Preyansh Bhagatwala 👋
+### 🚀 Software Engineer & Full Stack Developer &nbsp;|&nbsp; 🧠 AI/ML Enthusiast
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL%20%2F%2F%20READY%20FOR%20MNC%20ROLES-080B12?style=flat&logo=codeforces&logoColor=10B981" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20OPPORTUNITIES-10B981?style=for-the-badge&logo=codeforces&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/LOCATION-INDIA%20[UTC%20%2B5:30]-080B12?style=flat&logo=googlemaps&logoColor=38BDF8" />
+  <img src="https://img.shields.io/badge/LOCATION-INDIA%20[UTC%20%2B5:30]-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/CORE-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-080B12?style=flat&logo=visual-studio-code&logoColor=CBD5E1" />
+  <img src="https://img.shields.io/badge/TECH-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-8B5CF6?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
 
 </div>
 
 ---
 
-<!-- ================================================================= -->
-<!--          ENGINEERING CODEX & WORKSPACE TELEMETRY                  -->
-<!-- ================================================================= -->
+## 👨‍💻 About Me
 
-<table>
-<tr>
-<td width="57%" valign="top">
+<div align="center">
+  <img src="assets/developer-workspace.png" width="680" style="border-radius: 12px; border: 1px solid #1E293B; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" alt="Preyansh Bhagatwala - Workspace" />
+  <br>
+  <sub><b>COMMAND CENTER // ARCHITECTURE & TELEMETRY</b></sub>
+</div>
 
-### ⚡ Architectural Codex
-
-I build software with high technical standards, scalable architectural patterns, and production-grade resilience. From enterprise backend services and relational data modeling to predictive regression pipelines and fluid web interfaces, every system is engineered for scale, reliability, and real-world utility.
+<br>
 
 ```typescript
-class SeniorTechnologist {
-  readonly identity = "Preyansh Bhagatwala";
-  readonly roles = [
+const Preyansh: DeveloperProfile = {
+  identity: "Preyansh Bhagatwala",
+  roles: [
     "Software Engineer",
     "Full Stack Developer",
     "AI/ML Enthusiast"
-  ];
-
-  readonly engineeringStack = {
-    enterpriseBackend: ["Java", "Python", "Node.js", "Express", "Flask"],
-    databaseSystems:   ["PostgreSQL", "Relational Schemas", "Indexing"],
-    modernFrontend:    ["React 18", "Vite", "TypeScript", "Tailwind CSS"],
-    appliedAI:         ["Scikit-Learn", "Predictive Regressors", "NumPy", "Pandas"]
-  };
-
-  readonly principle = "Scalable architectural durability on the backend; effortless precision on the client.";
-}
+  ],
+  stack: {
+    backend: ["Java", "Python", "Node.js", "Express.js", "Flask", "PostgreSQL"],
+    frontend: ["React 18", "Vite", "TypeScript", "JavaScript", "Tailwind CSS"],
+    intelligence: ["Scikit-Learn", "Machine Learning Pipelines", "NumPy", "Pandas"]
+  },
+  mission: "Building mission-critical full-stack systems and high-precision machine learning intelligence."
+};
 ```
-
-</td>
-<td width="43%" align="center" valign="middle">
-
-<img src="assets/developer-workspace.png" width="100%" style="border-radius: 8px; border: 1px solid #1E293B; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" alt="Developer Workstation" />
-
-<br>
-<sub><b>COMMAND CENTER // WORKSTATION TELEMETRY</b></sub>
-
-</td>
-</tr>
-</table>
 
 ---
 
-## 🛠️ Technical Arsenal
+## 💻 Tech Stack
 
 <div align="center">
 
-### ☕ Enterprise Backend & Distributed Systems
+### ☕ Backend & Enterprise Systems
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,nodejs,express,flask,postgres" alt="Backend Stack" />
 </p>
 <p>
-  <code>Java (OOP &amp; Core Systems)</code> • <code>Python</code> • <code>Node.js</code> • <code>Express.js</code> • <code>Flask</code> • <code>PostgreSQL</code> • <code>RESTful APIs</code>
+  <b>Java (Core &amp; OOP)</b> • <b>Python</b> • <b>Node.js</b> • <b>Express.js</b> • <b>Flask</b> • <b>PostgreSQL</b> • <b>RESTful APIs</b>
 </p>
 
-### ⚛️ Modern Frontend & Client Architecture
+<br>
+
+### ⚛️ Frontend & Modern Web
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind,html,css" alt="Frontend Stack" />
 </p>
 <p>
-  <code>React 18</code> • <code>TypeScript</code> • <code>JavaScript</code> • <code>Vite</code> • <code>Tailwind CSS</code> • <code>Responsive Architecture</code> • <code>Component Systems</code>
+  <b>React 18</b> • <b>TypeScript</b> • <b>JavaScript</b> • <b>Vite</b> • <b>Tailwind CSS</b> • <b>Responsive Design</b>
 </p>
 
-### 🧠 Applied Machine Learning & Data Intelligence
+<br>
+
+### 🧠 Machine Learning & Data Science
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,py" alt="AI Stack" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn,py" alt="AI & ML Stack" />
 </p>
 <p>
-  <code>Scikit-Learn</code> • <code>Random Forest Regressors</code> • <code>Pandas</code> • <code>NumPy</code> • <code>Feature Pipelines</code> • <code>Model Cross-Validation</code>
+  <b>Scikit-Learn</b> • <b>Random Forest Regressors</b> • <b>Pandas</b> • <b>NumPy</b> • <b>Predictive Data Pipelines</b>
 </p>
 
-### 🚀 DevOps, Cloud & Tooling
+<br>
+
+### 🛠️ DevOps, Cloud & Tooling
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,postman,vercel,bash,linux" alt="Tools & Cloud" />
 </p>
 <p>
-  <code>Git</code> • <code>GitHub</code> • <code>Postman</code> • <code>Vercel</code> • <code>Bash / Linux</code> • <code>npm</code> • <code>Production Builds</code>
+  <b>Git</b> • <b>GitHub</b> • <b>Postman</b> • <b>Vercel</b> • <b>Bash / Linux</b> • <b>npm</b>
 </p>
 
 </div>
 
 ---
 
-## 🏛️ Flagship Engineering Systems
+## 🏛️ Featured Projects
 
 ```
 ========================================================================================
-  PRODUCTION CODEBASES: SCALED ARCHITECTURES & APPLIED MACHINE LEARNING
+  FLAGSHIP PRODUCTION ARCHITECTURES & APPLIED MACHINE LEARNING PLATFORMS
 ========================================================================================
 ```
 
@@ -166,16 +153,16 @@ class SeniorTechnologist {
 
 <div align="center">
 
-Open to exploring high-impact software engineering roles, full-stack platform architectures, and cutting-edge machine learning collaborations:
+I am always open to exploring high-impact software engineering roles, full-stack architectures, and cutting-edge machine learning collaborations:
 
 <br>
 
 <a href="mailto:preyanshbhagatwala@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-preyanshbhagatwala%40gmail.com-0B101B?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email" />
+  <img src="https://img.shields.io/badge/EMAIL-preyanshbhagatwala%40gmail.com-00F0FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/preyanshbhagatwala-web">
-  <img src="https://img.shields.io/badge/GITHUB-preyanshbhagatwala--web-0B101B?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-preyanshbhagatwala--web-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <br><br>
