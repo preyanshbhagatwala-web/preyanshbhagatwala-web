@@ -1,70 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 220" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <style>
-      .sans {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    <!-- Background Gradient -->
+    <linearGradient id="slateCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+
+    <!-- Subtle Light Blue Ambient Radial Glow -->
+    <radialGradient id="lightBlueAura" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Premium Light-Blue & White Typography Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+
+    <!-- Refined Border Gradient with Light Blue Accent -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7" />
+      <stop offset="40%" stop-color="#1E293B" stop-opacity="0.5" />
+      <stop offset="80%" stop-color="#1E293B" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Microscopic Tech Grid -->
+    <pattern id="fineGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45" />
+    </pattern>
+
+    <style><![CDATA[
+      @keyframes gentleGlow {
+        0%, 100% { filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.25)); }
+        50% { filter: drop-shadow(0 0 22px rgba(56, 189, 248, 0.45)); }
+      }
+      @keyframes pulseBeacon {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.6); opacity: 0.35; }
+        100% { transform: scale(2.2); opacity: 0; }
+      }
+      .brand-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+        font-weight: 800;
+        letter-spacing: 5px;
+        animation: gentleGlow 5s infinite ease-in-out;
+      }
+      .beacon-ring {
+        animation: pulseBeacon 2.4s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
+        transform-origin: 15px 13px;
       }
       .mono {
-        font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+        font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
       }
-    </style>
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      }
+    ]]></style>
   </defs>
 
-  <!-- Background Card -->
-  <rect width="920" height="180" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <!-- Base Background -->
+  <rect width="940" height="220" rx="10" fill="url(#slateCanvas)" stroke="url(#borderGrad)" stroke-width="1.2" />
+  <rect width="940" height="220" rx="10" fill="url(#lightBlueAura)" />
+  <rect width="940" height="220" rx="10" fill="url(#fineGrid)" />
 
-  <!-- Top Metadata Bar -->
+  <!-- Top Status & Metadata Bar -->
   <g transform="translate(32, 28)">
-    <circle cx="4" cy="4" r="3.5" fill="#3fb950" />
-    <text x="16" y="8" class="mono" font-size="11" fill="#3fb950" font-weight="600">OPEN TO OPPORTUNITIES</text>
-    <text x="210" y="8" class="mono" font-size="11" fill="#8b949e">LOCATION: INDIA</text>
-    <text x="350" y="8" class="mono" font-size="11" fill="#8b949e">DOMAIN: FULL STACK &amp; AI/ML</text>
+    <circle cx="0" cy="0" r="2.5" fill="#38BDF8" />
+    <text x="10" y="3.5" class="mono" font-size="10" fill="#38BDF8" font-weight="600" letter-spacing="1.5">PREYANSH.DEV // CORE ARCHITECTURE</text>
+    <text x="320" y="3.5" class="mono" font-size="9.5" fill="#64748B" letter-spacing="1">LOCATION: INDIA [UTC+5:30]</text>
   </g>
 
-  <!-- Subtle Divider -->
-  <line x1="32" y1="44" x2="888" y2="44" stroke="#21262d" stroke-width="1" />
+  <!-- Live Status Badge on Top Right -->
+  <g transform="translate(730, 16)">
+    <rect width="180" height="24" rx="12" fill="#0A1120" stroke="#1E293B" stroke-width="1" />
+    <circle cx="15" cy="12" r="4" fill="#10B981" class="beacon-ring" />
+    <circle cx="15" cy="12" r="3" fill="#10B981" />
+    <text x="26" y="15.5" class="mono" font-weight="600" font-size="9.5" fill="#34D399" letter-spacing="0.8">OPEN TO ROLES</text>
+  </g>
 
-  <!-- Main Identity -->
-  <g transform="translate(32, 92)">
-    <text class="sans" font-size="34" font-weight="700" fill="#f0f6fc" letter-spacing="1">
-      Preyansh Bhagatwala
-    </text>
-    <text y="28" class="sans" font-size="14.5" font-weight="500" fill="#8b949e">
-      Software Engineer  •  Full Stack Developer  •  AI/ML Enthusiast
+  <!-- Subtle Horizontal Divider -->
+  <line x1="32" y1="42" x2="908" y2="42" stroke="#1E293B" stroke-width="0.8" />
+
+  <!-- Main Hero Title -->
+  <g transform="translate(470, 98)" text-anchor="middle">
+    <text font-size="40" fill="url(#titleGrad)" class="brand-title">
+      PREYANSH BHAGATWALA
     </text>
   </g>
 
-  <!-- Core Stack Badges Strip at Bottom -->
-  <g transform="translate(32, 146)">
+  <!-- Roles Subtitle -->
+  <g transform="translate(470, 134)" text-anchor="middle">
+    <text class="sans" font-size="13" font-weight="600" fill="#94A3B8" letter-spacing="2">
+      <tspan fill="#F8FAFC">SOFTWARE ENGINEER</tspan>
+      <tspan fill="#475569">   •   </tspan>
+      <tspan fill="#38BDF8">FULL STACK DEVELOPER</tspan>
+      <tspan fill="#475569">   •   </tspan>
+      <tspan fill="#BAE6FD">AI/ML ENTHUSIAST</tspan>
+    </text>
+  </g>
+
+  <!-- Core Stack Badges Strip -->
+  <g transform="translate(470, 180)" text-anchor="middle">
     <!-- Java -->
-    <g transform="translate(0, 0)">
-      <rect width="64" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="32" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Java</text>
+    <g transform="translate(-275, 0)">
+      <rect x="-42" y="-12" width="84" height="24" rx="5" fill="#0C1427" stroke="#1E293B" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#E2E8F0">Java</text>
     </g>
     <!-- Python -->
-    <g transform="translate(72, 0)">
-      <rect width="72" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="36" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Python</text>
+    <g transform="translate(-165, 0)">
+      <rect x="-45" y="-12" width="90" height="24" rx="5" fill="#0C1427" stroke="#1E293B" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#E2E8F0">Python</text>
     </g>
     <!-- React -->
-    <g transform="translate(152, 0)">
-      <rect width="68" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="34" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">React</text>
+    <g transform="translate(-55, 0)">
+      <rect x="-45" y="-12" width="90" height="24" rx="5" fill="#0C1427" stroke="#1E293B" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#E2E8F0">React 18</text>
     </g>
     <!-- Node.js -->
-    <g transform="translate(228, 0)">
-      <rect width="78" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="39" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Node.js</text>
+    <g transform="translate(55, 0)">
+      <rect x="-45" y="-12" width="90" height="24" rx="5" fill="#0C1427" stroke="#1E293B" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#E2E8F0">Node.js</text>
     </g>
     <!-- PostgreSQL -->
-    <g transform="translate(314, 0)">
-      <rect width="98" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="49" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">PostgreSQL</text>
+    <g transform="translate(170, 0)">
+      <rect x="-52" y="-12" width="104" height="24" rx="5" fill="#0C1427" stroke="#1E293B" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#E2E8F0">PostgreSQL</text>
     </g>
     <!-- Machine Learning -->
-    <g transform="translate(420, 0)">
-      <rect width="138" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="69" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Machine Learning</text>
+    <g transform="translate(295, 0)">
+      <rect x="-56" y="-12" width="112" height="24" rx="5" fill="#0C1427" stroke="#38BDF8" stroke-width="0.9" />
+      <text y="4" class="mono" font-size="10.5" font-weight="600" fill="#38BDF8">Scikit-Learn</text>
     </g>
   </g>
 </svg>
