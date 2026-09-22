@@ -4,31 +4,30 @@
 
 <br>
 
-# Preyansh Bhagatwala
-### Software Engineer &nbsp;•&nbsp; Full Stack Developer &nbsp;•&nbsp; AI/ML Enthusiast
+## Overview
 
-I am a Software Engineer focused on building scalable backend architectures, reliable full-stack applications, and applied machine learning platforms. My work centers on delivering production-grade systems with strong data integrity, high-throughput APIs, and clean software architecture.
+I am a **Software Engineer** specializing in full-stack web architectures, enterprise backend systems, and applied machine learning models. I focus on developing scalable, maintainable production software with strong data integrity, high-throughput APIs, and clean software architecture.
 
-- 🔭 **Core Stack**: Java, Python, Node.js, Express.js, Flask, PostgreSQL, React 18, TypeScript.
+- ☕ **Backend Engineering**: Java (OOP & Core Systems), Python, Node.js, Express.js, Flask, PostgreSQL, RESTful APIs.
+- ⚛️ **Frontend Engineering**: React 18, TypeScript, JavaScript, Vite, Tailwind CSS, Responsive UI architecture.
 - 🧠 **Machine Learning**: Scikit-Learn, Random Forest Regressors, Pandas, NumPy, predictive pipeline engineering.
-- 📍 **Location**: India [UTC +5:30]
-- 💼 **Status**: Available for Software Engineering and Full Stack Developer opportunities.
+- 📍 **Location**: India [UTC +5:30] • Open to Software Engineer & Full Stack Developer opportunities.
 
 ---
 
-## 🛠️ Technical Competencies
+## Technical Competencies
 
-| Domain | Technologies & Frameworks |
+| Category | Technologies & Frameworks |
 | :--- | :--- |
-| **Enterprise Backend** | `Java (OOP & Core Systems)`, `Python`, `Node.js`, `Express.js`, `Flask`, `RESTful APIs`, `Microservices Architecture` |
+| **Enterprise Backend** | `Java (OOP & Core)`, `Python`, `Node.js`, `Express.js`, `Flask`, `RESTful APIs`, `Microservices Architecture` |
 | **Databases & Storage** | `PostgreSQL`, `Relational Data Modeling`, `Indexing`, `Connection Pooling`, `SQL` |
-| **Frontend & Web** | `React 18`, `TypeScript`, `JavaScript`, `Vite`, `Tailwind CSS`, `HTML5`, `CSS3`, `Responsive Architecture` |
-| **Machine Learning & Data** | `Scikit-Learn`, `Random Forest Regressors`, `Pandas`, `NumPy`, `Feature Pipelines`, `Data Preprocessing` |
+| **Frontend & Web** | `React 18`, `TypeScript`, `JavaScript`, `Vite`, `Tailwind CSS`, `HTML5`, `CSS3` |
+| **Machine Learning & Data** | `Scikit-Learn`, `Random Forest Regressors`, `Pandas`, `NumPy`, `Data Preprocessing`, `Feature Pipelines` |
 | **DevOps & Developer Tools** | `Git`, `GitHub`, `Postman`, `Vercel`, `Linux / Bash`, `npm`, `CI/CD Workflows` |
 
 ---
 
-## 🏛️ Featured Engineering Projects
+## Featured Engineering Projects
 
 ### 🛡️ [Trinetra V2](https://github.com/preyanshbhagatwala-web/TrinetraV2) — Parametric Climate Risk Platform
 > **Automated parametric income protection safeguarding Indian gig delivery workers from extreme weather disruption.**
@@ -59,15 +58,7 @@ I am a Software Engineer focused on building scalable backend architectures, rel
 
 ---
 
-## 📊 Technical Overview & Capabilities
-
-<div align="center">
-  <img src="assets/metrics-telemetry.svg" width="100%" alt="Technical Overview & Capabilities" />
-</div>
-
----
-
-## 📬 Contact & Links
+## Contact & Links
 
 - **Email**: [preyanshbhagatwala@gmail.com](mailto:preyanshbhagatwala@gmail.com)
 - **GitHub**: [github.com/preyanshbhagatwala-web](https://github.com/preyanshbhagatwala-web)
