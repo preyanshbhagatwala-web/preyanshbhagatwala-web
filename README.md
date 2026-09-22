@@ -4,7 +4,7 @@
 <!--                DYNAMIC ARTISTIC & MNC HERO BANNER                 -->
 <!-- ================================================================= -->
 
-<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
+<img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
 
 <br><br>
 
@@ -55,7 +55,7 @@ class SeniorTechnologist {
 </td>
 <td width="44%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/preyanshbhagatwala-web/preyanshbhagatwala-web/main/assets/developer-workspace.png" width="100%" style="border-radius: 12px; border: 1px solid #1E293B; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Developer Workstation" />
+<img src="assets/developer-workspace.png" width="100%" style="border-radius: 12px; border: 1px solid #1E293B; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" alt="Developer Workstation" />
 
 <br>
 <sub><b>COMMAND CENTER // ARCHITECTURE & TELEMETRY</b></sub>
