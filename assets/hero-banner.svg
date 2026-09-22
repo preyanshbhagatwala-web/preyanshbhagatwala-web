@@ -1,176 +1,235 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="cyberSky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#030712" />
-      <stop offset="60%" stop-color="#0B132B" />
-      <stop offset="100%" stop-color="#050B1A" />
+    <!-- Background Gradient -->
+    <linearGradient id="deepVoid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04060C" />
+      <stop offset="50%" stop-color="#080E1E" />
+      <stop offset="100%" stop-color="#03060E" />
     </linearGradient>
 
-    <!-- Horizon Glowing Aura -->
-    <radialGradient id="horizonGlow" cx="50%" cy="65%" r="60%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.35" />
-      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.25" />
-      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Giant Name Metallic Gradient -->
-    <linearGradient id="heroTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="35%" stop-color="#E0F2FE" />
-      <stop offset="70%" stop-color="#BAE6FD" />
-      <stop offset="100%" stop-color="#38BDF8" />
+    <!-- Name Shimmer Gradient -->
+    <linearGradient id="cyberChrome" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="30%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#00F0FF" />
     </linearGradient>
 
-    <!-- Neon Cyan Border Gradient -->
-    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Glowing Cyan Border Gradient -->
+    <linearGradient id="neonFrame" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.9" />
-      <stop offset="30%" stop-color="#6366F1" stop-opacity="0.4" />
-      <stop offset="70%" stop-color="#EC4899" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.9" />
     </linearGradient>
 
-    <!-- Keyframe Animations -->
-    <style>
-      @keyframes neonPulse {
-        0%, 100% { filter: drop-shadow(0 0 18px rgba(0,240,255,0.6)) drop-shadow(0 0 35px rgba(99,102,241,0.4)); }
-        50% { filter: drop-shadow(0 0 28px rgba(0,240,255,0.9)) drop-shadow(0 0 55px rgba(168,85,247,0.6)); }
-      }
-      @keyframes scanHorizon {
-        0% { transform: translateY(0); opacity: 0.8; }
-        50% { transform: translateY(-4px); opacity: 1; }
-        100% { transform: translateY(0); opacity: 0.8; }
-      }
-      @keyframes blinkBeacon {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(1.3); }
-      }
-      .glowing-name {
-        font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', 'Segoe UI', 'Montserrat', sans-serif;
-        font-weight: 900;
-        letter-spacing: 6px;
-        animation: neonPulse 4s infinite ease-in-out;
-      }
-      .beacon-dot {
-        animation: blinkBeacon 2s infinite ease-in-out;
-        transform-origin: center;
-      }
-      .mono-label {
-        font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
-      }
-    </style>
+    <!-- Laser Scanner Gradient -->
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </linearGradient>
 
-    <!-- Cyber Grid with Perspective Effect -->
-    <pattern id="gridOverlay" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.5" />
+    <!-- Architectural Grid -->
+    <pattern id="matrixGrid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#10192E" stroke-width="0.75" />
+      <circle cx="25" cy="25" r="0.8" fill="#38BDF8" fill-opacity="0.3" />
     </pattern>
+
+    <!-- Clip Paths for Typewriter / Reveal Effects -->
+    <clipPath id="typewriterClip">
+      <rect x="100" y="145" width="800" height="35">
+        <animate attributeName="width" from="0" to="800" dur="2.4s" begin="1.2s" fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="nameRevealClip">
+      <rect x="100" y="60" width="800" height="75">
+        <animate attributeName="width" from="0" to="800" dur="1.6s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
+      </rect>
+    </clipPath>
+
+    <style><![CDATA[
+      /* Entrance Sequences */
+      @keyframes frameDraw {
+        0% { opacity: 0; stroke-dasharray: 2600; stroke-dashoffset: 2600; }
+        100% { opacity: 1; stroke-dasharray: 2600; stroke-dashoffset: 0; }
+      }
+      .anim-frame {
+        animation: frameDraw 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+
+      @keyframes neonBreathe {
+        0%, 100% { filter: drop-shadow(0 0 16px rgba(0,240,255,0.5)) drop-shadow(0 0 32px rgba(99,102,241,0.3)); }
+        50% { filter: drop-shadow(0 0 26px rgba(0,240,255,0.85)) drop-shadow(0 0 50px rgba(129,140,248,0.5)); }
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', sans-serif;
+        font-weight: 900;
+        letter-spacing: 7px;
+        animation: neonBreathe 4s infinite ease-in-out;
+      }
+
+      @keyframes laserPass {
+        0% { transform: translateX(0px); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateX(850px); opacity: 0; }
+      }
+      .laser-scanner {
+        animation: laserPass 1.6s cubic-bezier(0.1, 0.8, 0.2, 1) 0.4s forwards;
+      }
+
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .typing-cursor {
+        animation: blinkCursor 0.75s infinite;
+      }
+
+      @keyframes badgeSpring {
+        0% { opacity: 0; transform: translateY(18px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .badge-group {
+        animation: badgeSpring 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 2.2s forwards;
+        opacity: 0;
+      }
+
+      @keyframes radarRings {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.8); opacity: 0.3; }
+        100% { transform: scale(2.4); opacity: 0; }
+      }
+      .beacon-ring {
+        animation: radarRings 2.2s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
+        transform-origin: 15px 14px;
+      }
+
+      @keyframes waveScroll {
+        to { stroke-dashoffset: -1000; }
+      }
+      .ambient-wave {
+        stroke-dasharray: 12, 8;
+        animation: waveScroll 35s linear infinite;
+      }
+
+      .mono-code {
+        font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      }
+    ]]></style>
   </defs>
 
-  <!-- Canvas Background -->
-  <rect width="1000" height="320" rx="14" fill="url(#cyberSky)" stroke="url(#neonBorder)" stroke-width="1.6" />
+  <!-- Frame Background -->
+  <rect width="1000" height="300" rx="12" fill="url(#deepVoid)" class="anim-frame" stroke="url(#neonFrame)" stroke-width="1.6" />
   
-  <!-- Ambient Horizon Glow -->
-  <rect width="1000" height="320" rx="14" fill="url(#horizonGlow)" />
-  <rect width="1000" height="320" rx="14" fill="url(#gridOverlay)" />
+  <!-- Perspective Matrix Grid -->
+  <rect width="1000" height="300" rx="12" fill="url(#matrixGrid)" />
 
-  <!-- Digital Perspective Horizon Rays -->
-  <g opacity="0.35" stroke="#00F0FF" stroke-width="0.8">
-    <line x1="500" y1="180" x2="-100" y2="340" />
-    <line x1="500" y1="180" x2="100" y2="340" />
-    <line x1="500" y1="180" x2="300" y2="340" />
-    <line x1="500" y1="180" x2="500" y2="340" stroke-width="1.2" stroke="#38BDF8" />
-    <line x1="500" y1="180" x2="700" y2="340" />
-    <line x1="500" y1="180" x2="900" y2="340" />
-    <line x1="500" y1="180" x2="1100" y2="340" />
-    <!-- Horizontal Perspective Rings -->
-    <line x1="100" y1="220" x2="900" y2="220" stroke-opacity="0.4" />
-    <line x1="50" y1="255" x2="950" y2="255" stroke-opacity="0.6" />
-    <line x1="0" y1="295" x2="1000" y2="295" stroke-opacity="0.8" />
-  </g>
+  <!-- Animated Horizon Ambient Wave -->
+  <path d="M -50 220 C 180 160, 320 260, 520 200 C 720 140, 840 240, 1050 180" 
+        fill="none" stroke="#00F0FF" stroke-width="1.2" stroke-opacity="0.3" class="ambient-wave" />
 
-  <!-- Glowing Cyber Corner Brackets -->
-  <path d="M 28 16 L 16 16 L 16 28" fill="none" stroke="#00F0FF" stroke-width="3" stroke-linecap="round" />
-  <path d="M 972 16 L 984 16 L 984 28" fill="none" stroke="#EC4899" stroke-width="3" stroke-linecap="round" />
-  <path d="M 28 304 L 16 304 L 16 292" fill="none" stroke="#00F0FF" stroke-width="3" stroke-linecap="round" />
-  <path d="M 972 304 L 984 304 L 984 292" fill="none" stroke="#EC4899" stroke-width="3" stroke-linecap="round" />
+  <!-- High-Tech Reticles -->
+  <path d="M 28 18 L 18 18 L 18 28" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 972 18 L 982 18 L 982 28" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 28 282 L 18 282 L 18 272" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 972 282 L 982 282 L 982 272" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
 
-  <!-- Top Telemetry Row -->
-  <g transform="translate(36, 36)">
+  <!-- Top System Telemetry Bar -->
+  <g transform="translate(34, 34)">
     <circle cx="0" cy="0" r="3" fill="#00F0FF" />
-    <text x="12" y="4" class="mono-label" font-size="11" fill="#00F0FF" font-weight="700" letter-spacing="2">PREYANSH.DEV // V5.0</text>
-    <text x="230" y="4" class="mono-label" font-size="10.5" fill="#94A3B8" letter-spacing="1.5">FULL-STACK &amp; AI ARCHITECT</text>
+    <text x="12" y="4" class="mono-code" font-size="10.5" fill="#38BDF8" font-weight="700" letter-spacing="2">
+      SYS.INIT // PREYANSH.ARCH // V5.2
+    </text>
+    <text x="260" y="4" class="mono-code" font-size="10" fill="#64748B" letter-spacing="1.5">
+      LOCATION: IN [UTC+5:30]
+    </text>
+    <text x="470" y="4" class="mono-code" font-size="10" fill="#64748B" letter-spacing="1.5">
+      STACK: JAVA &amp; FULL STACK &amp; AI/ML
+    </text>
   </g>
 
-  <!-- Live Status Badge on Top Right -->
-  <g transform="translate(760, 24)">
-    <rect width="200" height="26" rx="13" fill="#061226" stroke="#10B981" stroke-width="1.2" />
-    <circle cx="15" cy="13" r="4.5" fill="#10B981" class="beacon-dot" />
-    <text x="28" y="17" class="mono-label" font-weight="700" font-size="10" fill="#34D399" letter-spacing="1">SYSTEM OPERATIONAL</text>
+  <!-- Live Operational Status Beacon -->
+  <g transform="translate(760, 22)">
+    <rect width="205" height="26" rx="13" fill="#071224" stroke="#10B981" stroke-width="1.2" />
+    <circle cx="15" cy="13" r="4.5" fill="#10B981" class="beacon-ring" />
+    <circle cx="15" cy="13" r="3.5" fill="#10B981" />
+    <text x="28" y="17" class="mono-code" font-weight="700" font-size="9.5" fill="#34D399" letter-spacing="1.2">
+      SYSTEM OPERATIONAL
+    </text>
   </g>
 
-  <!-- Hero Main Name (Giant & Catchy) -->
-  <g transform="translate(500, 126)" text-anchor="middle">
-    <text font-size="52" fill="url(#heroTextGrad)" class="glowing-name">
+  <line x1="34" y1="46" x2="966" y2="46" stroke="#1E293B" stroke-width="0.8" />
+
+  <!-- PHASE 2: HERO NAME REVEALED VIA LASER SCANNER -->
+  <g clip-path="url(#nameRevealClip)" transform="translate(500, 114)" text-anchor="middle">
+    <text font-size="48" fill="url(#cyberChrome)" class="title-text">
       PREYANSH BHAGATWALA
     </text>
   </g>
 
-  <!-- Hero Subtitle Ribbon (The User's 3 Titles) -->
-  <g transform="translate(500, 172)" text-anchor="middle">
-    <rect x="-380" y="-17" width="760" height="34" rx="17" fill="#070E22" fill-opacity="0.9" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.2" />
-    <text y="6" class="mono-label" font-weight="700" font-size="13" letter-spacing="2.8">
+  <!-- Laser Scanning Bar moving across during entrance -->
+  <g transform="translate(80, 72)">
+    <rect x="0" y="0" width="8" height="50" fill="url(#scanBeam)" class="laser-scanner" />
+  </g>
+
+  <!-- PHASE 3: TYPEWRITER REVEAL OF ROLES -->
+  <g clip-path="url(#typewriterClip)" transform="translate(500, 162)" text-anchor="middle">
+    <rect x="-370" y="-16" width="740" height="32" rx="16" fill="#071022" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="1.2" />
+    <text y="6" class="mono-code" font-weight="700" font-size="13" letter-spacing="2.8">
       <tspan fill="#38BDF8">SOFTWARE ENGINEER</tspan>
-      <tspan fill="#64748B">  ⚡  </tspan>
+      <tspan fill="#64748B">  ✦  </tspan>
       <tspan fill="#F8FAFC">FULL STACK DEVELOPER</tspan>
-      <tspan fill="#64748B">  ⚡  </tspan>
+      <tspan fill="#64748B">  ✦  </tspan>
       <tspan fill="#EC4899">AI/ML ENTHUSIAST</tspan>
     </text>
   </g>
 
-  <!-- High-Impact Tech Stack Badges (Including Java prominently!) -->
-  <g transform="translate(500, 240)" text-anchor="middle">
+  <!-- PHASE 4: TECH BADGES SPRING IN -->
+  <g class="badge-group" transform="translate(500, 224)" text-anchor="middle">
     <!-- Java -->
     <g transform="translate(-320, 0)">
-      <rect x="-55" y="-16" width="110" height="32" rx="8" fill="#0C1429" stroke="#F59E0B" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#FDE68A" letter-spacing="1">☕ JAVA</text>
+      <rect x="-55" y="-15" width="110" height="30" rx="6" fill="#0A1124" stroke="#F59E0B" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#FDE68A" letter-spacing="1">☕ JAVA</text>
     </g>
 
     <!-- Python -->
     <g transform="translate(-195, 0)">
-      <rect x="-55" y="-16" width="110" height="32" rx="8" fill="#0C1429" stroke="#38BDF8" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#BAE6FD" letter-spacing="1">🐍 PYTHON</text>
+      <rect x="-55" y="-15" width="110" height="30" rx="6" fill="#0A1124" stroke="#38BDF8" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#BAE6FD" letter-spacing="1">🐍 PYTHON</text>
     </g>
 
-    <!-- React & Vite -->
+    <!-- React 18 -->
     <g transform="translate(-65, 0)">
-      <rect x="-60" y="-16" width="120" height="32" rx="8" fill="#0C1429" stroke="#00F0FF" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#A5F3FC" letter-spacing="1">⚛️ REACT 18</text>
+      <rect x="-60" y="-15" width="120" height="30" rx="6" fill="#0A1124" stroke="#00F0FF" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#A5F3FC" letter-spacing="1">⚛️ REACT 18</text>
     </g>
 
     <!-- Node.js -->
     <g transform="translate(70, 0)">
-      <rect x="-60" y="-16" width="120" height="32" rx="8" fill="#0C1429" stroke="#10B981" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#A7F3D0" letter-spacing="1">🟢 NODE.JS</text>
+      <rect x="-60" y="-15" width="120" height="30" rx="6" fill="#0A1124" stroke="#10B981" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#A7F3D0" letter-spacing="1">🟢 NODE.JS</text>
     </g>
 
     <!-- PostgreSQL -->
     <g transform="translate(205, 0)">
-      <rect x="-60" y="-16" width="120" height="32" rx="8" fill="#0C1429" stroke="#6366F1" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#C7D2FE" letter-spacing="1">🐘 POSTGRES</text>
+      <rect x="-60" y="-15" width="120" height="30" rx="6" fill="#0A1124" stroke="#818CF8" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#C7D2FE" letter-spacing="1">🐘 POSTGRES</text>
     </g>
 
     <!-- Scikit-Learn AI -->
     <g transform="translate(340, 0)">
-      <rect x="-60" y="-16" width="120" height="32" rx="8" fill="#0C1429" stroke="#EC4899" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="12" font-weight="700" fill="#FBCFE8" letter-spacing="1">🧠 SCIKIT AI</text>
+      <rect x="-60" y="-15" width="120" height="30" rx="6" fill="#0A1124" stroke="#EC4899" stroke-width="1.3" />
+      <text y="5" class="mono-code" font-size="11.5" font-weight="700" fill="#FBCFE8" letter-spacing="1">🧠 SCIKIT AI</text>
     </g>
   </g>
 
-  <!-- Bottom Command Line Strip -->
-  <g transform="translate(500, 292)" text-anchor="middle">
-    <text class="mono-label" font-size="11.5" fill="#64748B" letter-spacing="1.5">
-      <tspan fill="#10B981">❯</tspan> <tspan fill="#38BDF8">const</tspan> <tspan fill="#F8FAFC">dev</tspan> = <tspan fill="#F59E0B">new</tspan> <tspan fill="#A855F7">Engineer</tspan>(<tspan fill="#FDE68A">"High Scale"</tspan>, <tspan fill="#A5F3FC">"Predictive ML"</tspan>, <tspan fill="#34D399">"Enterprise Systems"</tspan>);
+  <!-- Bottom Command Terminal Line -->
+  <g transform="translate(500, 276)" text-anchor="middle">
+    <text class="mono-code" font-size="11" fill="#64748B" letter-spacing="1.5">
+      <tspan fill="#10B981">❯</tspan> <tspan fill="#38BDF8">engineer</tspan>.<tspan fill="#EC4899">deploy</tspan>(<tspan fill="#FDE68A">"High Scale Distributed Architectures"</tspan>, <tspan fill="#34D399">"Applied AI"</tspan>)
+      <tspan fill="#00F0FF" class="typing-cursor"> █</tspan>
     </text>
   </g>
 </svg>
