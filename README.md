@@ -1,26 +1,25 @@
 <div align="center">
 
 <!-- ================================================================= -->
-<!--       OPENING ENTRANCE ANIMATION: LASER SCANNER & CYBER HERO      -->
+<!--           OBSIDIAN & ROYAL CYAN-GOLD EXECUTIVE HERO BANNER        -->
 <!-- ================================================================= -->
 
 <img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
 
 <br><br>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=20&duration=2600&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=Software+Engineer+%26+Full+Stack+Developer;AI+%2F+Machine+Learning+Enthusiast;Core+Backend%3A+Java+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;Modern+Frontend%3A+React+18+%E2%80%A2+TypeScript+%E2%80%A2+Tailwind;Building+High-Impact+Enterprise+Architectures" alt="Dynamic Live Typing" />
-</a>
-
-<br><br>
+# Hi there, I'm Preyansh Bhagatwala 👋
+### 🚀 Software Engineer &amp; Full Stack Developer &nbsp;|&nbsp; 🧠 AI/ML Enthusiast
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20OPPORTUNITIES-10B981?style=for-the-badge&logo=codeforces&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/LOCATION-INDIA%20[UTC%20%2B5:30]-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/CORE-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-8B5CF6?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/CORE-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-F59E0B?style=for-the-badge&logo=visual-studio-code&logoColor=black" />
 </p>
+
+> *"Architecting mission-critical enterprise backends, reactive web systems, and predictive machine learning platforms with production durability and creative precision."*
 
 </div>
 
@@ -37,9 +36,9 @@ const Preyansh: SoftwareEngineer = {
     "AI/ML Enthusiast"
   ],
   stack: {
-    backend: ["Java", "Python", "Node.js", "Express.js", "Flask", "PostgreSQL"],
-    frontend: ["React 18", "Vite", "TypeScript", "JavaScript", "Tailwind CSS"],
-    intelligence: ["Scikit-Learn", "Machine Learning Pipelines", "NumPy", "Pandas"]
+    enterpriseBackend: ["Java", "Python", "Node.js", "Express.js", "Flask", "PostgreSQL"],
+    modernFrontend:    ["React 18", "Vite", "TypeScript", "JavaScript", "Tailwind CSS"],
+    appliedAI:         ["Scikit-Learn", "Machine Learning Pipelines", "NumPy", "Pandas"]
   },
   mission: "Building scalable distributed architectures and high-precision machine learning platforms."
 };
@@ -150,7 +149,7 @@ const Preyansh: SoftwareEngineer = {
 ## 🛠️ Workstation & Development Setup
 
 <div align="center">
-  <img src="assets/developer-workspace.png" width="340" style="border-radius: 8px; border: 1px solid #1E293B;" alt="Developer Workspace" />
+  <img src="assets/developer-workspace.png" width="320" style="border-radius: 8px; border: 1px solid #1E293B;" alt="Developer Workspace" />
   <br>
   <sub><b>DEV ENVIRONMENT // DUAL-TELEMETRY WORKSTATION</b></sub>
 </div>
