@@ -1,37 +1,35 @@
 <div align="center">
 
-<!-- HERO BANNER -->
+<!-- ================================================================= -->
+<!--       OPENING ENTRANCE ANIMATION: LASER SCANNER & CYBER HERO      -->
+<!-- ================================================================= -->
+
 <img src="assets/hero-banner.svg" width="100%" alt="Preyansh Bhagatwala - Software Engineer, Full Stack Developer, AI/ML Enthusiast" />
 
 <br><br>
 
-# Hi there, I'm Preyansh Bhagatwala 👋
-### 🚀 Software Engineer & Full Stack Developer &nbsp;|&nbsp; 🧠 AI/ML Enthusiast
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=20&duration=2600&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=Software+Engineer+%26+Full+Stack+Developer;AI+%2F+Machine+Learning+Enthusiast;Core+Backend%3A+Java+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;Modern+Frontend%3A+React+18+%E2%80%A2+TypeScript+%E2%80%A2+Tailwind;Building+High-Impact+Enterprise+Architectures" alt="Dynamic Live Typing" />
+</a>
+
+<br><br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20OPPORTUNITIES-10B981?style=for-the-badge&logo=codeforces&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/LOCATION-INDIA%20[UTC%20%2B5:30]-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/TECH-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-8B5CF6?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/CORE-JAVA%20%E2%80%A2%20FULL%20STACK%20%E2%80%A2%20AI%2FML-8B5CF6?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
-
-<div align="center">
-  <img src="assets/developer-workspace.png" width="680" style="border-radius: 12px; border: 1px solid #1E293B; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" alt="Preyansh Bhagatwala - Workspace" />
-  <br>
-  <sub><b>COMMAND CENTER // ARCHITECTURE & TELEMETRY</b></sub>
-</div>
-
-<br>
+## ⚡ Whoami
 
 ```typescript
-const Preyansh: DeveloperProfile = {
+const Preyansh: SoftwareEngineer = {
   identity: "Preyansh Bhagatwala",
   roles: [
     "Software Engineer",
@@ -43,17 +41,17 @@ const Preyansh: DeveloperProfile = {
     frontend: ["React 18", "Vite", "TypeScript", "JavaScript", "Tailwind CSS"],
     intelligence: ["Scikit-Learn", "Machine Learning Pipelines", "NumPy", "Pandas"]
   },
-  mission: "Building mission-critical full-stack systems and high-precision machine learning intelligence."
+  mission: "Building scalable distributed architectures and high-precision machine learning platforms."
 };
 ```
 
 ---
 
-## 💻 Tech Stack
+## 💻 Technical Arsenal
 
 <div align="center">
 
-### ☕ Backend & Enterprise Systems
+### ☕ Enterprise Backend & Distributed Systems
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,nodejs,express,flask,postgres" alt="Backend Stack" />
 </p>
@@ -63,22 +61,22 @@ const Preyansh: DeveloperProfile = {
 
 <br>
 
-### ⚛️ Frontend & Modern Web
+### ⚛️ Frontend & Modern Web Interfaces
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind,html,css" alt="Frontend Stack" />
 </p>
 <p>
-  <b>React 18</b> • <b>TypeScript</b> • <b>JavaScript</b> • <b>Vite</b> • <b>Tailwind CSS</b> • <b>Responsive Design</b>
+  <b>React 18</b> • <b>TypeScript</b> • <b>JavaScript</b> • <b>Vite</b> • <b>Tailwind CSS</b> • <b>Responsive Architecture</b>
 </p>
 
 <br>
 
-### 🧠 Machine Learning & Data Science
+### 🧠 Applied Machine Learning & Data Intelligence
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=scikitlearn,py" alt="AI & ML Stack" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn,py" alt="AI Stack" />
 </p>
 <p>
-  <b>Scikit-Learn</b> • <b>Random Forest Regressors</b> • <b>Pandas</b> • <b>NumPy</b> • <b>Predictive Data Pipelines</b>
+  <b>Scikit-Learn</b> • <b>Random Forest Regressors</b> • <b>Pandas</b> • <b>NumPy</b> • <b>Feature Engineering</b>
 </p>
 
 <br>
@@ -95,11 +93,11 @@ const Preyansh: DeveloperProfile = {
 
 ---
 
-## 🏛️ Featured Projects
+## 🏛️ Featured Engineering Deployments
 
 ```
 ========================================================================================
-  FLAGSHIP PRODUCTION ARCHITECTURES & APPLIED MACHINE LEARNING PLATFORMS
+  CORE PRODUCTION PLATFORMS: SCALED ARCHITECTURES & APPLIED MACHINE LEARNING
 ========================================================================================
 ```
 
@@ -149,11 +147,21 @@ const Preyansh: DeveloperProfile = {
 
 ---
 
+## 🛠️ Workstation & Development Setup
+
+<div align="center">
+  <img src="assets/developer-workspace.png" width="340" style="border-radius: 8px; border: 1px solid #1E293B;" alt="Developer Workspace" />
+  <br>
+  <sub><b>DEV ENVIRONMENT // DUAL-TELEMETRY WORKSTATION</b></sub>
+</div>
+
+---
+
 ## 🌐 Connect & Collaborate
 
 <div align="center">
 
-I am always open to exploring high-impact software engineering roles, full-stack architectures, and cutting-edge machine learning collaborations:
+I am always open to exploring high-impact software engineering roles, full-stack platform architectures, and cutting-edge machine learning collaborations:
 
 <br>
 
