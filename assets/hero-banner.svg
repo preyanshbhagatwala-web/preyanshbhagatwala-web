@@ -1,212 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="obsidianCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080B14" />
-      <stop offset="50%" stop-color="#0E1322" />
-      <stop offset="100%" stop-color="#06080F" />
-    </linearGradient>
-
-    <!-- Luxury Radial Ambient Light Cones -->
-    <radialGradient id="cyanCone" cx="15%" cy="20%" r="55%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="violetCone" cx="85%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="goldCenter" cx="50%" cy="50%" r="45%">
-      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Titanium & Ice-Cyan Shimmer Gradient for Main Name -->
-    <linearGradient id="titaniumGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="35%" stop-color="#E0F2FE" />
-      <stop offset="70%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#A78BFA" />
-    </linearGradient>
-
-    <!-- Outer Frame Luxury Border Gradient -->
-    <linearGradient id="luxuryBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.9" />
-      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.4" />
-      <stop offset="70%" stop-color="#F59E0B" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.9" />
-    </linearGradient>
-
-    <!-- Laser Pulse Beam Gradient -->
-    <linearGradient id="laserBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
-      <stop offset="50%" stop-color="#00F0FF" stop-opacity="1" />
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Hairline Tech Grid Pattern -->
-    <pattern id="techGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#172033" stroke-width="0.7" />
-      <circle cx="24" cy="24" r="0.8" fill="#38BDF8" fill-opacity="0.35" />
-    </pattern>
-
-    <style><![CDATA[
-      @keyframes neonBreathe {
-        0%, 100% { filter: drop-shadow(0 0 16px rgba(0,240,255,0.5)) drop-shadow(0 0 35px rgba(139,92,246,0.3)); }
-        50% { filter: drop-shadow(0 0 28px rgba(0,240,255,0.85)) drop-shadow(0 0 55px rgba(245,158,11,0.45)); }
+    <style>
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       }
-      @keyframes laserMove {
-        0% { transform: translateX(-400px); }
-        100% { transform: translateX(1100px); }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
       }
-      @keyframes beaconPulse {
-        0% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.8); opacity: 0.3; }
-        100% { transform: scale(2.4); opacity: 0; }
-      }
-      @keyframes waveScroll {
-        to { stroke-dashoffset: -1000; }
-      }
-      .hero-title {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Space Grotesk', Roboto, sans-serif;
-        font-weight: 900;
-        letter-spacing: 6px;
-        animation: neonBreathe 4s infinite ease-in-out;
-      }
-      .laser-rail {
-        animation: laserMove 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-      .beacon-ring {
-        animation: beaconPulse 2.2s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
-        transform-origin: 15px 14px;
-      }
-      .sine-wave {
-        stroke-dasharray: 10, 8;
-        animation: waveScroll 30s linear infinite;
-      }
-      .mono-label {
-        font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
-      }
-    ]]></style>
+    </style>
   </defs>
 
-  <!-- Base Canvas -->
-  <rect width="960" height="270" rx="14" fill="url(#obsidianCanvas)" stroke="url(#luxuryBorder)" stroke-width="1.6" />
-  
-  <!-- Atmospheric Cones -->
-  <rect width="960" height="270" rx="14" fill="url(#cyanCone)" />
-  <rect width="960" height="270" rx="14" fill="url(#violetCone)" />
-  <rect width="960" height="270" rx="14" fill="url(#goldCenter)" />
-  <rect width="960" height="270" rx="14" fill="url(#techGrid)" />
+  <!-- Background Card -->
+  <rect width="920" height="180" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
 
-  <!-- Animated Horizon Sine Waves -->
-  <g opacity="0.45">
-    <path d="M -40 180 C 160 120, 280 220, 480 160 C 680 100, 800 200, 1000 140" 
-          fill="none" stroke="#00F0FF" stroke-width="1.2" class="sine-wave" />
-    <path d="M -40 210 C 180 150, 320 250, 520 190 C 720 130, 820 230, 1000 170" 
-          fill="none" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="6, 6" />
+  <!-- Top Metadata Bar -->
+  <g transform="translate(32, 28)">
+    <circle cx="4" cy="4" r="3.5" fill="#3fb950" />
+    <text x="16" y="8" class="mono" font-size="11" fill="#3fb950" font-weight="600">OPEN TO OPPORTUNITIES</text>
+    <text x="210" y="8" class="mono" font-size="11" fill="#8b949e">LOCATION: INDIA</text>
+    <text x="350" y="8" class="mono" font-size="11" fill="#8b949e">DOMAIN: FULL STACK &amp; AI/ML</text>
   </g>
 
-  <!-- Laser Rail Sweep Across Bottom -->
-  <g clip-path="url(#borderClip)">
-    <line x1="30" y1="264" x2="930" y2="264" stroke="#1E293B" stroke-width="1" />
-    <rect x="0" y="263" width="220" height="2" fill="url(#laserBeamGrad)" class="laser-rail" />
-  </g>
+  <!-- Subtle Divider -->
+  <line x1="32" y1="44" x2="888" y2="44" stroke="#21262d" stroke-width="1" />
 
-  <!-- Corner Reticles -->
-  <path d="M 24 16 L 16 16 L 16 24" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 936 16 L 944 16 L 944 24" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 24 254 L 16 254 L 16 246" fill="none" stroke="#00F0FF" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M 936 254 L 944 254 L 944 246" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
-
-  <!-- Top Telemetry Row -->
-  <g transform="translate(32, 34)">
-    <circle cx="0" cy="0" r="3" fill="#00F0FF" />
-    <text x="12" y="4" class="mono-label" font-size="10.5" fill="#00F0FF" font-weight="700" letter-spacing="2">
-      PREYANSH.DEV // V5.5
+  <!-- Main Identity -->
+  <g transform="translate(32, 92)">
+    <text class="sans" font-size="34" font-weight="700" fill="#f0f6fc" letter-spacing="1">
+      Preyansh Bhagatwala
     </text>
-    <text x="240" y="4" class="mono-label" font-size="10" fill="#94A3B8" letter-spacing="1.5">
-      MNC ARCHITECTURE &amp; APPLIED AI
-    </text>
-    <text x="560" y="4" class="mono-label" font-size="10" fill="#64748B" letter-spacing="1.5">
-      BASE: IN [UTC+5:30]
+    <text y="28" class="sans" font-size="14.5" font-weight="500" fill="#8b949e">
+      Software Engineer  •  Full Stack Developer  •  AI/ML Enthusiast
     </text>
   </g>
 
-  <!-- Live Status Beacon -->
-  <g transform="translate(730, 22)">
-    <rect width="195" height="26" rx="13" fill="#061226" stroke="#10B981" stroke-width="1.2" />
-    <circle cx="15" cy="13" r="4.5" fill="#10B981" class="beacon-ring" />
-    <circle cx="15" cy="13" r="3.5" fill="#10B981" />
-    <text x="28" y="17" class="mono-label" font-weight="700" font-size="9.5" fill="#34D399" letter-spacing="1.2">
-      SYSTEM OPERATIONAL
-    </text>
-  </g>
-
-  <line x1="32" y1="46" x2="928" y2="46" stroke="#1E293B" stroke-width="0.8" />
-
-  <!-- Center Hero: PREYANSH BHAGATWALA (Always 100% visible and glowing!) -->
-  <g transform="translate(480, 108)" text-anchor="middle">
-    <text font-size="46" fill="url(#titaniumGlow)" class="hero-title">
-      PREYANSH BHAGATWALA
-    </text>
-  </g>
-
-  <!-- Roles Ribbon -->
-  <g transform="translate(480, 148)" text-anchor="middle">
-    <rect x="-350" y="-15" width="700" height="30" rx="15" fill="#090E20" stroke="#1E2E4A" stroke-width="1.2" />
-    <text y="5" class="mono-label" font-weight="700" font-size="12" letter-spacing="2.8">
-      <tspan fill="#38BDF8">SOFTWARE ENGINEER</tspan>
-      <tspan fill="#64748B">  ✦  </tspan>
-      <tspan fill="#F8FAFC">FULL STACK DEVELOPER</tspan>
-      <tspan fill="#64748B">  ✦  </tspan>
-      <tspan fill="#F59E0B">AI/ML ENTHUSIAST</tspan>
-    </text>
-  </g>
-
-  <!-- 6 High-Impact Tech Stack Badges (Including Java!) -->
-  <g transform="translate(480, 204)" text-anchor="middle">
+  <!-- Core Stack Badges Strip at Bottom -->
+  <g transform="translate(32, 146)">
     <!-- Java -->
-    <g transform="translate(-315, 0)">
-      <rect x="-50" y="-14" width="100" height="28" rx="6" fill="#0C1224" stroke="#F59E0B" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#FDE68A" letter-spacing="0.5">☕ JAVA</text>
+    <g transform="translate(0, 0)">
+      <rect width="64" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="32" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Java</text>
     </g>
-
     <!-- Python -->
-    <g transform="translate(-190, 0)">
-      <rect x="-50" y="-14" width="100" height="28" rx="6" fill="#0C1224" stroke="#38BDF8" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#BAE6FD" letter-spacing="0.5">🐍 PYTHON</text>
+    <g transform="translate(72, 0)">
+      <rect width="72" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="36" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Python</text>
     </g>
-
-    <!-- React 18 -->
-    <g transform="translate(-65, 0)">
-      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0C1224" stroke="#00F0FF" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#A5F3FC" letter-spacing="0.5">⚛️ REACT 18</text>
+    <!-- React -->
+    <g transform="translate(152, 0)">
+      <rect width="68" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="34" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">React</text>
     </g>
-
     <!-- Node.js -->
-    <g transform="translate(65, 0)">
-      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0C1224" stroke="#10B981" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#A7F3D0" letter-spacing="0.5">🟢 NODE.JS</text>
+    <g transform="translate(228, 0)">
+      <rect width="78" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="39" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Node.js</text>
     </g>
-
     <!-- PostgreSQL -->
-    <g transform="translate(195, 0)">
-      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0C1224" stroke="#818CF8" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#C7D2FE" letter-spacing="0.5">🐘 POSTGRES</text>
+    <g transform="translate(314, 0)">
+      <rect width="98" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="49" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">PostgreSQL</text>
     </g>
-
-    <!-- Scikit AI -->
-    <g transform="translate(325, 0)">
-      <rect x="-55" y="-14" width="110" height="28" rx="6" fill="#0C1224" stroke="#EC4899" stroke-width="1.4" />
-      <text y="5" class="mono-label" font-size="11" font-weight="700" fill="#FBCFE8" letter-spacing="0.5">🧠 SCIKIT AI</text>
+    <!-- Machine Learning -->
+    <g transform="translate(420, 0)">
+      <rect width="138" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="69" y="15" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#c9d1d9">Machine Learning</text>
     </g>
-  </g>
-
-  <!-- Bottom Command Terminal Line -->
-  <g transform="translate(480, 248)" text-anchor="middle">
-    <text class="mono-label" font-size="10.5" fill="#64748B" letter-spacing="1.5">
-      <tspan fill="#10B981">❯</tspan> <tspan fill="#38BDF8">architect</tspan>.<tspan fill="#F59E0B">deploy</tspan>(<tspan fill="#FDE68A">"High Scale Enterprise Backends"</tspan>, <tspan fill="#A5F3FC">"Predictive AI Platforms"</tspan>)
-    </text>
   </g>
 </svg>
